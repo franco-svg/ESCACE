@@ -27,6 +27,4 @@ Aplicación desarrollada bajo una arquitectura de 5 capas
 - .NET
 - XML
 
-## Estado del proyecto
 
-Proyecto finalizado y defendido.
