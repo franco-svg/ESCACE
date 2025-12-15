@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FichasProyecto>
+  <FichaProyecto Id="1">
+    <Titulo>Desarrollo de app movil</Titulo>
+    <Descripcion>Se desarrolla una app movil</Descripcion>
+    <FechaInicioPrevista>11-11-2025</FechaInicioPrevista>
+    <FechaFinPrevista>20-11-2025</FechaFinPrevista>
+    <Horas>200</Horas>
+    <Presupuesto>5000</Presupuesto>
+    <Estado>En_Curso</Estado>
+    <ContratoId>1</ContratoId>
+  </FichaProyecto>
+  <FichaProyecto Id="2">
+    <Titulo>Servicio de soporte y mantenimiento</Titulo>
+    <Descripcion>Se realiza el correspondiente servicio de soporte y mantenimiento</Descripcion>
+    <FechaInicioPrevista>04-11-2025</FechaInicioPrevista>
+    <FechaFinPrevista>04-01-2026</FechaFinPrevista>
+    <Horas>100</Horas>
+    <Presupuesto>6000</Presupuesto>
+    <Estado>En_Curso</Estado>
+    <ContratoId>2</ContratoId>
+  </FichaProyecto>
+  <FichaProyecto Id="3">
+    <Titulo>Implementación de ESCACE</Titulo>
+    <Descripcion>Se implementa la plataforma ESCACE</Descripcion>
+    <FechaInicioPrevista>03-11-2025</FechaInicioPrevista>
+    <FechaFinPrevista>02-02-2026</FechaFinPrevista>
+    <Horas>50</Horas>
+    <Presupuesto>4000</Presupuesto>
+    <Estado>En_Curso</Estado>
+    <ContratoId>3</ContratoId>
+  </FichaProyecto>
+  <FichaProyecto Id="4">
+    <Titulo>Desarrollo de modulo logistico inteligente</Titulo>
+    <Descripcion>Se desarrolla un modulo logistico inteligente</Descripcion>
+    <FechaInicioPrevista>03-11-2025</FechaInicioPrevista>
+    <FechaFinPrevista>04-05-2026</FechaFinPrevista>
+    <Horas>800</Horas>
+    <Presupuesto>40000</Presupuesto>
+    <Estado>Pendiente</Estado>
+    <ContratoId>4</ContratoId>
+  </FichaProyecto>
+  <FichaProyecto Id="5">
+    <Titulo>Implementacion de sistema de calidad automatizada</Titulo>
+    <Descripcion>Se implementa un sistema de calidad automatizada</Descripcion>
+    <FechaInicioPrevista>01-12-2025</FechaInicioPrevista>
+    <FechaFinPrevista>01-07-2026</FechaFinPrevista>
+    <Horas>1500</Horas>
+    <Presupuesto>60000</Presupuesto>
+    <Estado>En_Curso</Estado>
+    <ContratoId>5</ContratoId>
+  </FichaProyecto>
+  <FichaProyecto Id="6">
+    <Titulo>Implementacion sistema de control de ventas regional</Titulo>
+    <Descripcion>Se implementa un sistema de ventas regional</Descripcion>
+    <FechaInicioPrevista>01-01-2026</FechaInicioPrevista>
+    <FechaFinPrevista>01-03-2026</FechaFinPrevista>
+    <Horas>600</Horas>
+    <Presupuesto>30000</Presupuesto>
+    <Estado>Pendiente</Estado>
+    <ContratoId>11</ContratoId>
+  </FichaProyecto>
+</FichasProyecto>

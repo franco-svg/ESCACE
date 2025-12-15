@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Contratos>
+  <Contrato Id="1">
+    <Titulo>Desarrollo de Aplicación Móvil</Titulo>
+    <Descripcion>Acuerdo para el desarrollo de una aplicación móvil destinada a la gestión interna de inventario médico.</Descripcion>
+    <TerminosCondiciones>El proveedor se compromete a entregar la aplicación en un plazo máximo de 90 días hábiles, incluyendo mantenimiento por 6 meses posteriores a la entrega.</TerminosCondiciones>
+    <FechaFirma>03-11-2025</FechaFirma>
+    <FechaInicio>10-11-2025</FechaInicio>
+    <Monto>10000</Monto>
+    <Estado>Vigente</Estado>
+    <ClienteId>5</ClienteId>
+  </Contrato>
+  <Contrato Id="2">
+    <Titulo>Servicio de Soporte y Mantenimiento Power Platform</Titulo>
+    <Descripcion>Contrato de soporte mensual para flujos de Power Automate y aplicaciones Canvas en el entorno productivo</Descripcion>
+    <TerminosCondiciones>El servicio incluye atención prioritaria, monitoreo de errores y corrección de fallas dentro de 48 horas hábiles.</TerminosCondiciones>
+    <FechaFirma>03-11-2025</FechaFirma>
+    <FechaInicio>13-11-2025</FechaInicio>
+    <Monto>12000</Monto>
+    <Estado>Vigente</Estado>
+    <ClienteId>4</ClienteId>
+  </Contrato>
+  <Contrato Id="3">
+    <Titulo>Implementación de Plataforma de Gestión de Proyectos (ESCACE)</Titulo>
+    <Descripcion>Desarrollo e implementación de una aplicación interna para la gestión integral de proyectos, recursos, roles y reportes.</Descripcion>
+    <TerminosCondiciones>
+			El proyecto se entregará por módulos funcionales cada 30 días.
+
+			Cualquier modificación en el alcance deberá ser aprobada por el cliente.
+
+			Incluye soporte post-implementación durante 60 días.
+		</TerminosCondiciones>
+    <FechaFirma>01-11-2025</FechaFirma>
+    <FechaInicio>01-02-2026</FechaInicio>
+    <Monto>12400</Monto>
+    <Estado>Vigente</Estado>
+    <ClienteId>6</ClienteId>
+  </Contrato>
+  <Contrato Id="4">
+    <Titulo>Desarrollo de Módulo Logístico Inteligente</Titulo>
+    <Descripcion>Implementación de un sistema de optimización de rutas de entrega basado en IA para el centro de distribución regional.</Descripcion>
+    <TerminosCondiciones>El sistema deberá integrarse con la API interna de logística de Amazon.
+
+			Entregas parciales cada 4 semanas.
+			Incluye 3 meses de soporte técnico remoto.
+		</TerminosCondiciones>
+    <FechaFirma>01-09-2025</FechaFirma>
+    <FechaInicio>03-11-2025</FechaInicio>
+    <Monto>90000</Monto>
+    <Estado>Vigente</Estado>
+    <ClienteId>1</ClienteId>
+  </Contrato>
+  <Contrato Id="5">
+    <Titulo>Sistema de Control de Calidad Automatizado</Titulo>
+    <Descripcion>Desarrollo de un software que automatiza el análisis visual de componentes eléctricos en la línea de producción.</Descripcion>
+    <TerminosCondiciones>
+			Uso de cámaras industriales y modelos de visión por computadora.
+
+			Las pruebas piloto se realizarán en la planta de Austin, TX.
+
+			El soporte incluye mantenimiento predictivo por IA durante 6 meses.
+		</TerminosCondiciones>
+    <FechaFirma>11-11-2025</FechaFirma>
+    <FechaInicio>11-12-2025</FechaInicio>
+    <Monto>150000</Monto>
+    <Estado>Vigente</Estado>
+    <ClienteId>2</ClienteId>
+  </Contrato>
+  <Contrato Id="7">
+    <Titulo>Sistema de Gestión de Distribución Nacional</Titulo>
+    <Descripcion>Digitalización de los procesos logísticos y control de stock en plantas y distribuidores nacionales.</Descripcion>
+    <TerminosCondiciones>
+			Entregas por módulos (inventario, transporte, reportes).
+
+			Incluye capacitación al personal operativo.
+
+			Se garantiza interoperabilidad con sistemas existentes.
+		</TerminosCondiciones>
+    <FechaFirma>01-12-2025</FechaFirma>
+    <FechaInicio>01-01-2026</FechaInicio>
+    <Monto>45000</Monto>
+    <Estado>Vigente</Estado>
+    <ClienteId>4</ClienteId>
+  </Contrato>
+  <Contrato Id="8">
+    <Titulo>Desarrollo de Entorno Colaborativo con IA Generativa</Titulo>
+    <Descripcion>Creación de un prototipo de entorno de trabajo virtual con asistentes de IA integrados en flujos de comunicación.</Descripcion>
+    <TerminosCondiciones>
+			Se usarán modelos de lenguaje provistos por META AI.
+
+			La propiedad intelectual del modelo entrenado queda a nombre del cliente.
+
+			Las pruebas se realizarán en entorno cerrado de desarrollo.
+		</TerminosCondiciones>
+    <FechaFirma>03-11-2025</FechaFirma>
+    <FechaInicio>04-12-2025</FechaInicio>
+    <Monto>500000</Monto>
+    <Estado>Vigente</Estado>
+    <ClienteId>3</ClienteId>
+  </Contrato>
+  <Contrato Id="9">
+    <Titulo>Portal de Pacientes y Turnos Médicos</Titulo>
+    <Descripcion>Creación de una plataforma web segura para la gestión de turnos, historia clínica y resultados de estudios.</Descripcion>
+    <TerminosCondiciones>
+			Cumple con normativa de protección de datos (Ley 25.326).
+
+			Se requiere hosting en servidores certificados HIPAA.
+
+			Incluye mantenimiento y soporte por 1 año.
+		</TerminosCondiciones>
+    <FechaFirma>03-11-2025</FechaFirma>
+    <FechaInicio>04-11-2025</FechaInicio>
+    <Monto>15000</Monto>
+    <Estado>Pendiente</Estado>
+    <ClienteId>5</ClienteId>
+  </Contrato>
+  <Contrato Id="10">
+    <Titulo>Plataforma E-Commerce Personalizada</Titulo>
+    <Descripcion>Rediseño del portal de compras con motor de recomendaciones y análisis de comportamiento del usuario.</Descripcion>
+    <TerminosCondiciones>
+			Integración con sistemas de inventario y CRM existentes.
+
+			Incluye auditoría de usabilidad posterior al lanzamiento.
+
+			Plazo de desarrollo estimado: 6 meses.
+		</TerminosCondiciones>
+    <FechaFirma>03-11-2025</FechaFirma>
+    <FechaInicio>03-12-2025</FechaInicio>
+    <Monto>11000</Monto>
+    <Estado>Pendiente</Estado>
+    <ClienteId>6</ClienteId>
+  </Contrato>
+  <Contrato Id="11">
+    <Titulo>Implementación de Sistema de Control de Ventas Regional</Titulo>
+    <Descripcion>Creación de un tablero unificado para analizar ventas, márgenes y rotación de productos en tiempo real.</Descripcion>
+    <TerminosCondiciones>
+			Se conectará a bases de datos de tiendas físicas y online.
+
+			El acceso a datos se gestionará mediante autenticación corporativa.
+
+			Incluye soporte por 6 meses y una auditoría anual.
+		</TerminosCondiciones>
+    <FechaFirma>03-11-2025</FechaFirma>
+    <FechaInicio>07-11-2025</FechaInicio>
+    <Monto>5000</Monto>
+    <Estado>Vigente</Estado>
+    <ClienteId>7</ClienteId>
+  </Contrato>
+</Contratos>

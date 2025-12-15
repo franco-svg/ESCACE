@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Backups>
+  <Backup Id="1">
+    <Detalle>backup</Detalle>
+    <Fecha>14-11-2025 16:46:49</Fecha>
+    <UsuarioId>8</UsuarioId>
+  </Backup>
+  <Backup Id="2">
+    <Detalle>backup</Detalle>
+    <Fecha>17-11-2025 18:29:31</Fecha>
+    <UsuarioId>7</UsuarioId>
+  </Backup>
+  <Backup Id="3">
+    <Detalle>backup</Detalle>
+    <Fecha>17-11-2025 18:54:22</Fecha>
+    <UsuarioId>1</UsuarioId>
+  </Backup>
+  <Backup Id="4">
+    <Detalle>backup</Detalle>
+    <Fecha>26-11-2025 19:59:23</Fecha>
+    <UsuarioId>1</UsuarioId>
+  </Backup>
+  <Backup Id="5">
+    <Detalle>backup</Detalle>
+    <Fecha>08-12-2025 15:55:28</Fecha>
+    <UsuarioId>1</UsuarioId>
+  </Backup>
+</Backups>

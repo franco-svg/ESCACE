@@ -1,0 +1,1285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BackupData>
+  <AsignacionesColPro>
+    <Asignacion>
+      <ColaboradorId>1</ColaboradorId>
+      <ProyectoId>1</ProyectoId>
+    </Asignacion>
+    <Asignacion>
+      <ColaboradorId>2</ColaboradorId>
+      <ProyectoId>1</ProyectoId>
+    </Asignacion>
+    <Asignacion>
+      <ColaboradorId>1</ColaboradorId>
+      <ProyectoId>2</ProyectoId>
+    </Asignacion>
+    <Asignacion>
+      <ColaboradorId>5</ColaboradorId>
+      <ProyectoId>2</ProyectoId>
+    </Asignacion>
+    <Asignacion>
+      <ColaboradorId>6</ColaboradorId>
+      <ProyectoId>2</ProyectoId>
+    </Asignacion>
+    <Asignacion>
+      <ColaboradorId>1</ColaboradorId>
+      <ProyectoId>3</ProyectoId>
+    </Asignacion>
+    <Asignacion>
+      <ColaboradorId>12</ColaboradorId>
+      <ProyectoId>3</ProyectoId>
+    </Asignacion>
+    <Asignacion>
+      <ColaboradorId>3</ColaboradorId>
+      <ProyectoId>3</ProyectoId>
+    </Asignacion>
+    <Asignacion>
+      <ColaboradorId>8</ColaboradorId>
+      <ProyectoId>1</ProyectoId>
+    </Asignacion>
+  </AsignacionesColPro>
+  <Clientes>
+    <Cliente Id="1">
+      <RazonSocial>Amazon SA</RazonSocial>
+      <IdFiscal>12-4563456</IdFiscal>
+      <Email>amazon@amazon.co</Email>
+      <Telefono>+1-5261889363</Telefono>
+      <Industria>Tecnologia</Industria>
+      <Pais>EEUU</Pais>
+    </Cliente>
+    <Cliente Id="2">
+      <RazonSocial>Tesla LLC</RazonSocial>
+      <IdFiscal>12-6378291</IdFiscal>
+      <Email>tesla@tesla.co</Email>
+      <Telefono>+1-1526738494</Telefono>
+      <Industria>Tecnologia</Industria>
+      <Pais>EEUU</Pais>
+    </Cliente>
+    <Cliente Id="3">
+      <RazonSocial>META Platforms LLC</RazonSocial>
+      <IdFiscal>11-7628192</IdFiscal>
+      <Email>meta@meta.co</Email>
+      <Telefono>+1-6251123892</Telefono>
+      <Industria>Tecnologia</Industria>
+      <Pais>EEUU</Pais>
+    </Cliente>
+    <Cliente Id="4">
+      <RazonSocial>Manaos SAS</RazonSocial>
+      <IdFiscal>21-23453432-1</IdFiscal>
+      <Email>manaosarg@manaos.co</Email>
+      <Telefono>+54-1145655433</Telefono>
+      <Industria>Comercio</Industria>
+      <Pais>Argentina</Pais>
+    </Cliente>
+    <Cliente Id="5">
+      <RazonSocial>Swiss Medical SRL</RazonSocial>
+      <IdFiscal>45-27288922-1</IdFiscal>
+      <Email>swissme@swiss.co</Email>
+      <Telefono>+54-1123456534</Telefono>
+      <Industria>Salud</Industria>
+      <Pais>Argentina</Pais>
+    </Cliente>
+    <Cliente Id="6">
+      <RazonSocial>El corte ingles SA</RazonSocial>
+      <IdFiscal>12345221P</IdFiscal>
+      <Email>corteingles@corte.co</Email>
+      <Telefono>+34-672898152</Telefono>
+      <Industria>Comercio</Industria>
+      <Pais>España</Pais>
+    </Cliente>
+    <Cliente Id="7">
+      <RazonSocial>Cencosud SAS</RazonSocial>
+      <IdFiscal>12345678-K</IdFiscal>
+      <Email>cencosud@cen.co</Email>
+      <Telefono>+56-162783744</Telefono>
+      <Industria>Comercio</Industria>
+      <Pais>Chile</Pais>
+    </Cliente>
+    <Cliente Id="9">
+      <RazonSocial>Petrobras LTDA</RazonSocial>
+      <IdFiscal>12.345.678/2201-91</IdFiscal>
+      <Email>petro@bras.co</Email>
+      <Telefono>+55-72662881</Telefono>
+      <Industria>Energia</Industria>
+      <Pais>Brasil</Pais>
+    </Cliente>
+    <Cliente Id="10">
+      <RazonSocial>Tienda Inglesa SA</RazonSocial>
+      <IdFiscal>266278398712</IdFiscal>
+      <Email>tiendainglesa@tiendauy.co</Email>
+      <Telefono>+598-87290911</Telefono>
+      <Industria>Comercio</Industria>
+      <Pais>Uruguay</Pais>
+    </Cliente>
+    <Cliente Id="11">
+      <RazonSocial>JPMorgan LLC</RazonSocial>
+      <IdFiscal>12-7736472</IdFiscal>
+      <Email>jpmorgan@morgan.co</Email>
+      <Telefono>+1-2773892811</Telefono>
+      <Industria>Finanzas</Industria>
+      <Pais>EEUU</Pais>
+    </Cliente>
+  </Clientes>
+  <Colaboradores>
+    <Colaborador Id="1">
+      <Nombre>Franco</Nombre>
+      <Apellido>Barbeito</Apellido>
+      <DNI>46364152</DNI>
+      <Email>franco@hotmail.com</Email>
+      <Telefono>1132488565</Telefono>
+      <Seniority>SemiSenior</Seniority>
+      <RolId>7</RolId>
+    </Colaborador>
+    <Colaborador Id="2">
+      <Nombre>Emiliano</Nombre>
+      <Apellido>Scopetta</Apellido>
+      <DNI>46581732</DNI>
+      <Email>diego@hotmail.com</Email>
+      <Telefono>1132788476</Telefono>
+      <Seniority>Trainee</Seniority>
+      <RolId>2</RolId>
+    </Colaborador>
+    <Colaborador Id="3">
+      <Nombre>Bautista</Nombre>
+      <Apellido>Repossi</Apellido>
+      <DNI>33786336</DNI>
+      <Email>bautista@gmail.com</Email>
+      <Telefono>1662234322</Telefono>
+      <Seniority>Senior</Seniority>
+      <RolId>14</RolId>
+    </Colaborador>
+    <Colaborador Id="4">
+      <Nombre>Manuel</Nombre>
+      <Apellido>Ortiz</Apellido>
+      <DNI>11782635</DNI>
+      <Email>manuel@hotmail.com</Email>
+      <Telefono>1156877353</Telefono>
+      <Seniority>Senior</Seniority>
+      <RolId>2</RolId>
+    </Colaborador>
+    <Colaborador Id="5">
+      <Nombre>Paolo</Nombre>
+      <Apellido>Guerrero</Apellido>
+      <DNI>11114633</DNI>
+      <Email>paolo@hotmail.com</Email>
+      <Telefono>1162253345</Telefono>
+      <Seniority>Senior</Seniority>
+      <RolId>14</RolId>
+    </Colaborador>
+    <Colaborador Id="6">
+      <Nombre>Lucia</Nombre>
+      <Apellido>Garcia Castillo</Apellido>
+      <DNI>34567098</DNI>
+      <Email>lucia@gmail.com</Email>
+      <Telefono>1123664494</Telefono>
+      <Seniority>Senior</Seniority>
+      <RolId>5</RolId>
+    </Colaborador>
+    <Colaborador Id="7">
+      <Nombre>Manuela</Nombre>
+      <Apellido>Gonzalez</Apellido>
+      <DNI>43765419</DNI>
+      <Email>manuela@hotmail.com</Email>
+      <Telefono>1145664878</Telefono>
+      <Seniority>SemiSenior</Seniority>
+      <RolId>9</RolId>
+    </Colaborador>
+    <Colaborador Id="8">
+      <Nombre>Myriam</Nombre>
+      <Apellido>Milei</Apellido>
+      <DNI>47344123</DNI>
+      <Email>myriamb@hotmail.com</Email>
+      <Telefono>1167726533</Telefono>
+      <Seniority>Senior</Seniority>
+      <RolId>4</RolId>
+    </Colaborador>
+    <Colaborador Id="9">
+      <Nombre>Juan</Nombre>
+      <Apellido>Ramirez</Apellido>
+      <DNI>45332763</DNI>
+      <Email>juanr@gmail.com</Email>
+      <Telefono>1132455676</Telefono>
+      <Seniority>Junior</Seniority>
+      <RolId>12</RolId>
+    </Colaborador>
+    <Colaborador Id="12">
+      <Nombre>Diego</Nombre>
+      <Apellido>Faundez</Apellido>
+      <DNI>45889123</DNI>
+      <Email>diegof@hotmail.com</Email>
+      <Telefono>1187782341</Telefono>
+      <Seniority>Trainee</Seniority>
+      <RolId>4</RolId>
+    </Colaborador>
+  </Colaboradores>
+  <Contratos>
+    <Contrato Id="1">
+      <Titulo>Desarrollo de Aplicación Móvil</Titulo>
+      <Descripcion>Acuerdo para el desarrollo de una aplicación móvil destinada a la gestión interna de inventario médico.</Descripcion>
+      <TerminosCondiciones>El proveedor se compromete a entregar la aplicación en un plazo máximo de 90 días hábiles, incluyendo mantenimiento por 6 meses posteriores a la entrega.</TerminosCondiciones>
+      <FechaFirma>03-11-2025</FechaFirma>
+      <FechaInicio>10-11-2025</FechaInicio>
+      <Monto>10000</Monto>
+      <Estado>Vigente</Estado>
+      <ClienteId>5</ClienteId>
+    </Contrato>
+    <Contrato Id="2">
+      <Titulo>Servicio de Soporte y Mantenimiento Power Platform</Titulo>
+      <Descripcion>Contrato de soporte mensual para flujos de Power Automate y aplicaciones Canvas en el entorno productivo</Descripcion>
+      <TerminosCondiciones>El servicio incluye atención prioritaria, monitoreo de errores y corrección de fallas dentro de 48 horas hábiles.</TerminosCondiciones>
+      <FechaFirma>03-11-2025</FechaFirma>
+      <FechaInicio>13-11-2025</FechaInicio>
+      <Monto>12000</Monto>
+      <Estado>Vigente</Estado>
+      <ClienteId>4</ClienteId>
+    </Contrato>
+    <Contrato Id="3">
+      <Titulo>Implementación de Plataforma de Gestión de Proyectos (ESCACE)</Titulo>
+      <Descripcion>Desarrollo e implementación de una aplicación interna para la gestión integral de proyectos, recursos, roles y reportes.</Descripcion>
+      <TerminosCondiciones>
+			El proyecto se entregará por módulos funcionales cada 30 días.
+
+			Cualquier modificación en el alcance deberá ser aprobada por el cliente.
+
+			Incluye soporte post-implementación durante 60 días.
+		</TerminosCondiciones>
+      <FechaFirma>01-11-2025</FechaFirma>
+      <FechaInicio>01-02-2026</FechaInicio>
+      <Monto>12400</Monto>
+      <Estado>Vigente</Estado>
+      <ClienteId>6</ClienteId>
+    </Contrato>
+    <Contrato Id="4">
+      <Titulo>Desarrollo de Módulo Logístico Inteligente</Titulo>
+      <Descripcion>Implementación de un sistema de optimización de rutas de entrega basado en IA para el centro de distribución regional.</Descripcion>
+      <TerminosCondiciones>El sistema deberá integrarse con la API interna de logística de Amazon.
+
+			Entregas parciales cada 4 semanas.
+			Incluye 3 meses de soporte técnico remoto.
+		</TerminosCondiciones>
+      <FechaFirma>01-09-2025</FechaFirma>
+      <FechaInicio>03-11-2025</FechaInicio>
+      <Monto>90000</Monto>
+      <Estado>Vigente</Estado>
+      <ClienteId>1</ClienteId>
+    </Contrato>
+    <Contrato Id="5">
+      <Titulo>Sistema de Control de Calidad Automatizado</Titulo>
+      <Descripcion>Desarrollo de un software que automatiza el análisis visual de componentes eléctricos en la línea de producción.</Descripcion>
+      <TerminosCondiciones>
+			Uso de cámaras industriales y modelos de visión por computadora.
+
+			Las pruebas piloto se realizarán en la planta de Austin, TX.
+
+			El soporte incluye mantenimiento predictivo por IA durante 6 meses.
+		</TerminosCondiciones>
+      <FechaFirma>11-11-2025</FechaFirma>
+      <FechaInicio>11-12-2025</FechaInicio>
+      <Monto>150000</Monto>
+      <Estado>Vigente</Estado>
+      <ClienteId>2</ClienteId>
+    </Contrato>
+    <Contrato Id="7">
+      <Titulo>Sistema de Gestión de Distribución Nacional</Titulo>
+      <Descripcion>Digitalización de los procesos logísticos y control de stock en plantas y distribuidores nacionales.</Descripcion>
+      <TerminosCondiciones>
+			Entregas por módulos (inventario, transporte, reportes).
+
+			Incluye capacitación al personal operativo.
+
+			Se garantiza interoperabilidad con sistemas existentes.
+		</TerminosCondiciones>
+      <FechaFirma>01-12-2025</FechaFirma>
+      <FechaInicio>01-01-2026</FechaInicio>
+      <Monto>45000</Monto>
+      <Estado>Vigente</Estado>
+      <ClienteId>4</ClienteId>
+    </Contrato>
+    <Contrato Id="8">
+      <Titulo>Desarrollo de Entorno Colaborativo con IA Generativa</Titulo>
+      <Descripcion>Creación de un prototipo de entorno de trabajo virtual con asistentes de IA integrados en flujos de comunicación.</Descripcion>
+      <TerminosCondiciones>
+			Se usarán modelos de lenguaje provistos por META AI.
+
+			La propiedad intelectual del modelo entrenado queda a nombre del cliente.
+
+			Las pruebas se realizarán en entorno cerrado de desarrollo.
+		</TerminosCondiciones>
+      <FechaFirma>03-11-2025</FechaFirma>
+      <FechaInicio>04-12-2025</FechaInicio>
+      <Monto>500000</Monto>
+      <Estado>Vigente</Estado>
+      <ClienteId>3</ClienteId>
+    </Contrato>
+    <Contrato Id="9">
+      <Titulo>Portal de Pacientes y Turnos Médicos</Titulo>
+      <Descripcion>Creación de una plataforma web segura para la gestión de turnos, historia clínica y resultados de estudios.</Descripcion>
+      <TerminosCondiciones>
+			Cumple con normativa de protección de datos (Ley 25.326).
+
+			Se requiere hosting en servidores certificados HIPAA.
+
+			Incluye mantenimiento y soporte por 1 año.
+		</TerminosCondiciones>
+      <FechaFirma>03-11-2025</FechaFirma>
+      <FechaInicio>04-11-2025</FechaInicio>
+      <Monto>15000</Monto>
+      <Estado>Pendiente</Estado>
+      <ClienteId>5</ClienteId>
+    </Contrato>
+    <Contrato Id="10">
+      <Titulo>Plataforma E-Commerce Personalizada</Titulo>
+      <Descripcion>Rediseño del portal de compras con motor de recomendaciones y análisis de comportamiento del usuario.</Descripcion>
+      <TerminosCondiciones>
+			Integración con sistemas de inventario y CRM existentes.
+
+			Incluye auditoría de usabilidad posterior al lanzamiento.
+
+			Plazo de desarrollo estimado: 6 meses.
+		</TerminosCondiciones>
+      <FechaFirma>03-11-2025</FechaFirma>
+      <FechaInicio>03-12-2025</FechaInicio>
+      <Monto>11000</Monto>
+      <Estado>Pendiente</Estado>
+      <ClienteId>6</ClienteId>
+    </Contrato>
+    <Contrato Id="11">
+      <Titulo>Implementación de Sistema de Control de Ventas Regional</Titulo>
+      <Descripcion>Creación de un tablero unificado para analizar ventas, márgenes y rotación de productos en tiempo real.</Descripcion>
+      <TerminosCondiciones>
+			Se conectará a bases de datos de tiendas físicas y online.
+
+			El acceso a datos se gestionará mediante autenticación corporativa.
+
+			Incluye soporte por 6 meses y una auditoría anual.
+		</TerminosCondiciones>
+      <FechaFirma>03-11-2025</FechaFirma>
+      <FechaInicio>07-11-2025</FechaInicio>
+      <Monto>5000</Monto>
+      <Estado>Vigente</Estado>
+      <ClienteId>7</ClienteId>
+    </Contrato>
+  </Contratos>
+  <Fases>
+    <Fase Id="1">
+      <Titulo>Diseno de la solución</Titulo>
+      <Descripcion>Diseno de la solución</Descripcion>
+      <HorasEstimadas>20</HorasEstimadas>
+      <HorasCompletadas>26</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <ProyectoId>1</ProyectoId>
+    </Fase>
+    <Fase Id="2">
+      <Titulo>Desarrollo de la solución</Titulo>
+      <Descripcion>Se desarrolla la solución</Descripcion>
+      <HorasEstimadas>100</HorasEstimadas>
+      <HorasCompletadas>35</HorasCompletadas>
+      <HorasRestantes>20</HorasRestantes>
+      <Estado>Pendiente</Estado>
+      <ProyectoId>1</ProyectoId>
+    </Fase>
+    <Fase Id="3">
+      <Titulo>Pruebas y QA</Titulo>
+      <Descripcion>Se prueba la solución</Descripcion>
+      <HorasEstimadas>16</HorasEstimadas>
+      <HorasCompletadas>0</HorasCompletadas>
+      <HorasRestantes>16</HorasRestantes>
+      <Estado>Pendiente</Estado>
+      <ProyectoId>1</ProyectoId>
+    </Fase>
+    <Fase Id="4">
+      <Titulo>Documentación final de la solución</Titulo>
+      <Descripcion>Se documenta la solución una vez terminada</Descripcion>
+      <HorasEstimadas>12</HorasEstimadas>
+      <HorasCompletadas>0</HorasCompletadas>
+      <HorasRestantes>8</HorasRestantes>
+      <Estado>Pendiente</Estado>
+      <ProyectoId>1</ProyectoId>
+    </Fase>
+    <Fase Id="5">
+      <Titulo>Preventa </Titulo>
+      <Descripcion>Preventa del soporte</Descripcion>
+      <HorasEstimadas>6</HorasEstimadas>
+      <HorasCompletadas>4,5</HorasCompletadas>
+      <HorasRestantes>0,5</HorasRestantes>
+      <Estado>Pendiente</Estado>
+      <ProyectoId>2</ProyectoId>
+    </Fase>
+    <Fase Id="6">
+      <Titulo>Sesiones de soporte</Titulo>
+      <Descripcion>Sesiones de soporte</Descripcion>
+      <HorasEstimadas>100</HorasEstimadas>
+      <HorasCompletadas>0</HorasCompletadas>
+      <HorasRestantes>100</HorasRestantes>
+      <Estado>Pendiente</Estado>
+      <ProyectoId>2</ProyectoId>
+    </Fase>
+    <Fase Id="7">
+      <Titulo>Cierre del servicio</Titulo>
+      <Descripcion>Cierre del servicio</Descripcion>
+      <HorasEstimadas>2</HorasEstimadas>
+      <HorasCompletadas>0</HorasCompletadas>
+      <HorasRestantes>2</HorasRestantes>
+      <Estado>Pendiente</Estado>
+      <ProyectoId>2</ProyectoId>
+    </Fase>
+    <Fase Id="9">
+      <Titulo>Analisis de la solución</Titulo>
+      <Descripcion>Se realiza el analisis de la solución</Descripcion>
+      <HorasEstimadas>16</HorasEstimadas>
+      <HorasCompletadas>20,0</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <ProyectoId>3</ProyectoId>
+    </Fase>
+    <Fase Id="11">
+      <Titulo>Diseno de la solucion</Titulo>
+      <Descripcion>Diseno de la solucion</Descripcion>
+      <HorasEstimadas>30</HorasEstimadas>
+      <HorasCompletadas>51</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <ProyectoId>3</ProyectoId>
+    </Fase>
+    <Fase Id="12">
+      <Titulo>Desarrollo de la solucion</Titulo>
+      <Descripcion>Desarrollo de la solucion</Descripcion>
+      <HorasEstimadas>80</HorasEstimadas>
+      <HorasCompletadas>164</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>En_Progreso</Estado>
+      <ProyectoId>3</ProyectoId>
+    </Fase>
+  </Fases>
+  <FichasProyecto>
+    <FichaProyecto Id="1">
+      <Titulo>Desarrollo de app movil</Titulo>
+      <Descripcion>Se desarrolla una app movil</Descripcion>
+      <FechaInicioPrevista>11-11-2025</FechaInicioPrevista>
+      <FechaFinPrevista>20-11-2025</FechaFinPrevista>
+      <Horas>200</Horas>
+      <Presupuesto>5000</Presupuesto>
+      <Estado>En_Curso</Estado>
+      <ContratoId>1</ContratoId>
+    </FichaProyecto>
+    <FichaProyecto Id="2">
+      <Titulo>Servicio de soporte y mantenimiento</Titulo>
+      <Descripcion>Se realiza el correspondiente servicio de soporte y mantenimiento</Descripcion>
+      <FechaInicioPrevista>04-11-2025</FechaInicioPrevista>
+      <FechaFinPrevista>04-01-2026</FechaFinPrevista>
+      <Horas>100</Horas>
+      <Presupuesto>6000</Presupuesto>
+      <Estado>En_Curso</Estado>
+      <ContratoId>2</ContratoId>
+    </FichaProyecto>
+    <FichaProyecto Id="3">
+      <Titulo>Implementación de ESCACE</Titulo>
+      <Descripcion>Se implementa la plataforma ESCACE</Descripcion>
+      <FechaInicioPrevista>03-11-2025</FechaInicioPrevista>
+      <FechaFinPrevista>02-02-2026</FechaFinPrevista>
+      <Horas>50</Horas>
+      <Presupuesto>4000</Presupuesto>
+      <Estado>En_Curso</Estado>
+      <ContratoId>3</ContratoId>
+    </FichaProyecto>
+    <FichaProyecto Id="4">
+      <Titulo>Desarrollo de modulo logistico inteligente</Titulo>
+      <Descripcion>Se desarrolla un modulo logistico inteligente</Descripcion>
+      <FechaInicioPrevista>03-11-2025</FechaInicioPrevista>
+      <FechaFinPrevista>04-05-2026</FechaFinPrevista>
+      <Horas>800</Horas>
+      <Presupuesto>40000</Presupuesto>
+      <Estado>Pendiente</Estado>
+      <ContratoId>4</ContratoId>
+    </FichaProyecto>
+    <FichaProyecto Id="5">
+      <Titulo>Implementacion de sistema de calidad automatizada</Titulo>
+      <Descripcion>Se implementa un sistema de calidad automatizada</Descripcion>
+      <FechaInicioPrevista>01-12-2025</FechaInicioPrevista>
+      <FechaFinPrevista>01-07-2026</FechaFinPrevista>
+      <Horas>1500</Horas>
+      <Presupuesto>60000</Presupuesto>
+      <Estado>En_Curso</Estado>
+      <ContratoId>5</ContratoId>
+    </FichaProyecto>
+    <FichaProyecto Id="6">
+      <Titulo>Implementacion sistema de control de ventas regional</Titulo>
+      <Descripcion>Se implementa un sistema de ventas regional</Descripcion>
+      <FechaInicioPrevista>01-01-2026</FechaInicioPrevista>
+      <FechaFinPrevista>01-03-2026</FechaFinPrevista>
+      <Horas>600</Horas>
+      <Presupuesto>30000</Presupuesto>
+      <Estado>Pendiente</Estado>
+      <ContratoId>11</ContratoId>
+    </FichaProyecto>
+  </FichasProyecto>
+  <Hitos>
+    <Hito Id="1">
+      <Titulo>Documentacion inicial</Titulo>
+      <CriterioAlcance>Se debe haber realizado la documentacion inicial del proyecto.</CriterioAlcance>
+      <Fecha>2025-11-19</Fecha>
+      <Alcanzado>True</Alcanzado>
+      <ProyectoId>1</ProyectoId>
+    </Hito>
+    <Hito Id="2">
+      <Titulo>Desarrollo de la app al 50%</Titulo>
+      <CriterioAlcance>Se deben haber desarrollado la aplicacion en un 50%</CriterioAlcance>
+      <Fecha>2025-12-17</Fecha>
+      <Alcanzado>True</Alcanzado>
+      <ProyectoId>1</ProyectoId>
+    </Hito>
+    <Hito Id="3">
+      <Titulo>Desarrollo de app al 100%</Titulo>
+      <CriterioAlcance>Se debe haber desarrollado la app en un 100%</CriterioAlcance>
+      <Fecha>2026-01-14</Fecha>
+      <Alcanzado>false</Alcanzado>
+      <ProyectoId>1</ProyectoId>
+    </Hito>
+    <Hito Id="4">
+      <Titulo>Pruebas y QA (con ajustes de bugs)</Titulo>
+      <CriterioAlcance>Se debe someter la app a un proceso de QA apropiado. Contempla ajuste de bugs.</CriterioAlcance>
+      <Fecha>2026-01-24</Fecha>
+      <Alcanzado>false</Alcanzado>
+      <ProyectoId>1</ProyectoId>
+    </Hito>
+    <Hito Id="5">
+      <Titulo>Pasaje a producción</Titulo>
+      <CriterioAlcance>Pasaje a producción de la app</CriterioAlcance>
+      <Fecha>2026-02-05</Fecha>
+      <Alcanzado>false</Alcanzado>
+      <ProyectoId>1</ProyectoId>
+    </Hito>
+    <Hito Id="6">
+      <Titulo>30 Horas de soporte y mantenimiento</Titulo>
+      <CriterioAlcance>Se debe haber cumplido con al menos 30 horas de soporte y mantenimiento</CriterioAlcance>
+      <Fecha>2025-11-28</Fecha>
+      <Alcanzado>True</Alcanzado>
+      <ProyectoId>2</ProyectoId>
+    </Hito>
+    <Hito Id="7">
+      <Titulo>70 horas de soporte y mantenimiento</Titulo>
+      <CriterioAlcance>Se dee haber cumplido con al menos 70 horas de soporte y mantenimiento</CriterioAlcance>
+      <Fecha>2025-12-31</Fecha>
+      <Alcanzado>False</Alcanzado>
+      <ProyectoId>2</ProyectoId>
+    </Hito>
+    <Hito Id="8">
+      <Titulo>100 horas de soporte y mantenimiento</Titulo>
+      <CriterioAlcance>Se deben haber cumplido 100 horas de soporte y mantenimiento</CriterioAlcance>
+      <Fecha>2026-01-16</Fecha>
+      <Alcanzado>false</Alcanzado>
+      <ProyectoId>2</ProyectoId>
+    </Hito>
+    <Hito Id="9">
+      <Titulo>Documentación inicial de la solución</Titulo>
+      <CriterioAlcance>Se debe haber documentado la solución en su estadío inicial</CriterioAlcance>
+      <Fecha>2025-11-21</Fecha>
+      <Alcanzado>True</Alcanzado>
+      <ProyectoId>3</ProyectoId>
+    </Hito>
+    <Hito Id="10">
+      <Titulo>Desarrollo e implementación de la solución</Titulo>
+      <CriterioAlcance>Desarrollo e implementación de la solución en su totalidad</CriterioAlcance>
+      <Fecha>2025-12-25</Fecha>
+      <Alcanzado>True</Alcanzado>
+      <ProyectoId>3</ProyectoId>
+    </Hito>
+    <Hito Id="11">
+      <Titulo>Pruebas y QA de la implementación</Titulo>
+      <CriterioAlcance>Se debe somenter la implementación de la solución a un robusto conjunto de pruebas</CriterioAlcance>
+      <Fecha>2025-12-19</Fecha>
+      <Alcanzado>false</Alcanzado>
+      <ProyectoId>3</ProyectoId>
+    </Hito>
+    <Hito Id="12">
+      <Titulo>Documentación final de la solución</Titulo>
+      <CriterioAlcance>Se debe documentar la solución en su estadío final</CriterioAlcance>
+      <Fecha>2026-01-15</Fecha>
+      <Alcanzado>False</Alcanzado>
+      <ProyectoId>3</ProyectoId>
+    </Hito>
+  </Hitos>
+  <Proyectos>
+    <Proyecto Id="1">
+      <Titulo>Desarrollo de app movil</Titulo>
+      <Descripcion>
+			Desarrollo de una aplicación móvil multiplataforma utilizando .NET MAUI y Azure App Service, con autenticación basada en OAuth 2.0 e integración con API REST para la gestión de datos.
+			El proyecto incluye la implementación de notificaciones push mediante Firebase Cloud Messaging, almacenamiento local con SQLite, y sincronización en tiempo real a través de SignalR.
+		</Descripcion>
+      <HorasEstimadas>200</HorasEstimadas>
+      <HorasCompletadas>61</HorasCompletadas>
+      <HorasRestantes>44</HorasRestantes>
+      <Estado>Con_Impedimentos</Estado>
+      <FichaProyectoId>1</FichaProyectoId>
+    </Proyecto>
+    <Proyecto Id="2">
+      <Titulo>Servicio de soporte y mantenimiento</Titulo>
+      <Descripcion>
+			Prestación de servicios de soporte correctivo, evolutivo y preventivo sobre las aplicaciones productivas de la organización.
+			Incluye monitoreo de logs, resolución de incidencias, actualización de dependencias, revisión de rendimiento y aplicación de parches de seguridad.
+			Las tareas se ejecutarán conforme a un plan de mantenimiento semanal, priorizando la estabilidad, disponibilidad y continuidad operativa de los sistemas.
+		</Descripcion>
+      <HorasEstimadas>100</HorasEstimadas>
+      <HorasCompletadas>4,5</HorasCompletadas>
+      <HorasRestantes>102,5</HorasRestantes>
+      <Estado>Pendiente</Estado>
+      <FichaProyectoId>2</FichaProyectoId>
+    </Proyecto>
+    <Proyecto Id="3">
+      <Titulo>Implementacion de ESCACE</Titulo>
+      <Descripcion>
+			Implementación inicial del sistema ESCACE, incluyendo la configuración de módulos base, estructura de datos XML y capa de comunicación entre componentes BLL y MPP.
+			El proyecto contempla la integración de formularios de gestión (roles, usuarios, proyectos y bitácora), validaciones de negocio, y mecanismos de persistencia segura mediante cifrado AES.
+			Se estima una duración de 50 horas distribuidas entre desarrollo, pruebas funcionales y documentación técnica.
+		</Descripcion>
+      <HorasEstimadas>50</HorasEstimadas>
+      <HorasCompletadas>235,0</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>En_Progreso</Estado>
+      <FichaProyectoId>3</FichaProyectoId>
+    </Proyecto>
+  </Proyectos>
+  <Roles>
+    <Rol Id="2">
+      <Nombre>Project Manager</Nombre>
+      <Descripcion>Supervisa la planificación, ejecución y entrega de proyectos, coordinando equipos y recursos para cumplir con los objetivos</Descripcion>
+      <Categoria>Gestión</Categoria>
+    </Rol>
+    <Rol Id="3">
+      <Nombre>Low Code Developer</Nombre>
+      <Descripcion>Desarrollador especializado en Power Platforms</Descripcion>
+      <Categoria>Técnico</Categoria>
+    </Rol>
+    <Rol Id="4">
+      <Nombre>Frontend developer</Nombre>
+      <Descripcion>Implementa interfaces de usuario interactivas y responsivas, asegurando una experiencia fluida en navegadores y dispositivos</Descripcion>
+      <Categoria>Técnico</Categoria>
+    </Rol>
+    <Rol Id="5">
+      <Nombre>Backend developer</Nombre>
+      <Descripcion>Desarrolla y mantiene la lógica del servidor, las bases de datos y las APIs que conectan el frontend con el backend del sistema</Descripcion>
+      <Categoria>Técnico</Categoria>
+    </Rol>
+    <Rol Id="7">
+      <Nombre>QA Tester</Nombre>
+      <Descripcion>Diseña y ejecuta pruebas para detectar errores, garantizando la calidad y estabilidad del software antes de su despliegue</Descripcion>
+      <Categoria>Técnico</Categoria>
+    </Rol>
+    <Rol Id="9">
+      <Nombre>DevOps Engineer</Nombre>
+      <Descripcion>Automatiza y optimiza los procesos de desarrollo, integración y despliegue continuo en entornos de software</Descripcion>
+      <Categoria>Técnico</Categoria>
+    </Rol>
+    <Rol Id="12">
+      <Nombre>Business Analyst</Nombre>
+      <Descripcion>Traduce las necesidades del negocio en requisitos técnicos, asegurando que las soluciones desarrolladas generen valor</Descripcion>
+      <Categoria>Negocio</Categoria>
+    </Rol>
+    <Rol Id="14">
+      <Nombre>Data Engineer</Nombre>
+      <Descripcion>Diseña, construye y mantiene arquitecturas de datos escalables, asegurando la calidad, integridad y disponibilidad de la información para análisis y modelos de IA</Descripcion>
+      <Categoria>Técnico</Categoria>
+    </Rol>
+  </Roles>
+  <Tareas>
+    <Tarea Id="1">
+      <Titulo>Armar diagrama DER</Titulo>
+      <Descripcion>Se arma el diagrama DER</Descripcion>
+      <HorasEstimadas>6</HorasEstimadas>
+      <HorasCompletadas>6</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>1</FaseId>
+    </Tarea>
+    <Tarea Id="2">
+      <Titulo>Documentar modulos del 1 al 4</Titulo>
+      <Descripcion>Se documentan los modulos de la solución del 1 al 4</Descripcion>
+      <HorasEstimadas>12</HorasEstimadas>
+      <HorasCompletadas>12</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>1</FaseId>
+    </Tarea>
+    <Tarea Id="3">
+      <Titulo>Armar diagrama de clases</Titulo>
+      <Descripcion>Se arma el diagrama de clases</Descripcion>
+      <HorasEstimadas>8</HorasEstimadas>
+      <HorasCompletadas>8</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>1</FaseId>
+    </Tarea>
+    <Tarea Id="4">
+      <Titulo>Desarrollar pantalla de inicio</Titulo>
+      <Descripcion>Se desarrolla la pantalla de inicio</Descripcion>
+      <HorasEstimadas>20</HorasEstimadas>
+      <HorasCompletadas>0</HorasCompletadas>
+      <HorasRestantes>20</HorasRestantes>
+      <Estado>En_Progreso</Estado>
+      <FaseId>2</FaseId>
+    </Tarea>
+    <Tarea Id="5">
+      <Titulo>Desarrollar pantalla de ajustes</Titulo>
+      <Descripcion>Se desarrolla pantalla de ajustes</Descripcion>
+      <HorasEstimadas>35</HorasEstimadas>
+      <HorasCompletadas>35</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>2</FaseId>
+    </Tarea>
+    <Tarea Id="6">
+      <Titulo>QA</Titulo>
+      <Descripcion>Pruebas a la app</Descripcion>
+      <HorasEstimadas>12</HorasEstimadas>
+      <HorasCompletadas>0</HorasCompletadas>
+      <HorasRestantes>12</HorasRestantes>
+      <Estado>Pendiente</Estado>
+      <FaseId>3</FaseId>
+    </Tarea>
+    <Tarea Id="7">
+      <Titulo>Ajustes</Titulo>
+      <Descripcion>Ajustes de los bugs encontrados en las pruebas</Descripcion>
+      <HorasEstimadas>4</HorasEstimadas>
+      <HorasCompletadas>0</HorasCompletadas>
+      <HorasRestantes>4</HorasRestantes>
+      <Estado>Pendiente</Estado>
+      <FaseId>3</FaseId>
+    </Tarea>
+    <Tarea Id="8">
+      <Titulo>Documentar procedimientos</Titulo>
+      <Descripcion>se documentan los procedimientos de la aplicación</Descripcion>
+      <HorasEstimadas>4</HorasEstimadas>
+      <HorasCompletadas>0</HorasCompletadas>
+      <HorasRestantes>4</HorasRestantes>
+      <Estado>Pendiente</Estado>
+      <FaseId>4</FaseId>
+    </Tarea>
+    <Tarea Id="9">
+      <Titulo>Manual operativo</Titulo>
+      <Descripcion>Se documenta un manual operativo de la app</Descripcion>
+      <HorasEstimadas>4</HorasEstimadas>
+      <HorasCompletadas>0</HorasCompletadas>
+      <HorasRestantes>4</HorasRestantes>
+      <Estado>Pendiente</Estado>
+      <FaseId>4</FaseId>
+    </Tarea>
+    <Tarea Id="10">
+      <Titulo>1r sesion de preventa</Titulo>
+      <Descripcion>1r sesion de preventa</Descripcion>
+      <HorasEstimadas>2</HorasEstimadas>
+      <HorasCompletadas>2</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>5</FaseId>
+    </Tarea>
+    <Tarea Id="11">
+      <Titulo>2da sesion de preventa</Titulo>
+      <Descripcion>2da sesion de preventa</Descripcion>
+      <HorasEstimadas>2</HorasEstimadas>
+      <HorasCompletadas>2,5</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>5</FaseId>
+    </Tarea>
+    <Tarea Id="12">
+      <Titulo>Kickoff</Titulo>
+      <Descripcion>Kickoff del servicio</Descripcion>
+      <HorasEstimadas>0,5</HorasEstimadas>
+      <HorasCompletadas>0</HorasCompletadas>
+      <HorasRestantes>0,5</HorasRestantes>
+      <Estado>Pendiente</Estado>
+      <FaseId>5</FaseId>
+    </Tarea>
+    <Tarea Id="13">
+      <Titulo>1er bloque de horas</Titulo>
+      <Descripcion>1er bloque de horas</Descripcion>
+      <HorasEstimadas>30</HorasEstimadas>
+      <HorasCompletadas>0</HorasCompletadas>
+      <HorasRestantes>30</HorasRestantes>
+      <Estado>Pendiente</Estado>
+      <FaseId>6</FaseId>
+    </Tarea>
+    <Tarea Id="14">
+      <Titulo>2do bloque de horas</Titulo>
+      <Descripcion>2do bloque de horas</Descripcion>
+      <HorasEstimadas>40</HorasEstimadas>
+      <HorasCompletadas>0</HorasCompletadas>
+      <HorasRestantes>40</HorasRestantes>
+      <Estado>Pendiente</Estado>
+      <FaseId>6</FaseId>
+    </Tarea>
+    <Tarea Id="15">
+      <Titulo>3er bloque de horas</Titulo>
+      <Descripcion>3er bloque de horas</Descripcion>
+      <HorasEstimadas>30</HorasEstimadas>
+      <HorasCompletadas>0</HorasCompletadas>
+      <HorasRestantes>30</HorasRestantes>
+      <Estado>Pendiente</Estado>
+      <FaseId>6</FaseId>
+    </Tarea>
+    <Tarea Id="16">
+      <Titulo>Sesión de cierre</Titulo>
+      <Descripcion>Se realiza la sesión de cierre</Descripcion>
+      <HorasEstimadas>2</HorasEstimadas>
+      <HorasCompletadas>0</HorasCompletadas>
+      <HorasRestantes>2</HorasRestantes>
+      <Estado>Pendiente</Estado>
+      <FaseId>7</FaseId>
+    </Tarea>
+    <Tarea Id="21">
+      <Titulo>Caratula con el titulo del proyecto</Titulo>
+      <Descripcion>Caratula con el titulo del proyecto</Descripcion>
+      <HorasEstimadas>0,5</HorasEstimadas>
+      <HorasCompletadas>0,5</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>9</FaseId>
+    </Tarea>
+    <Tarea Id="22">
+      <Titulo>Indice</Titulo>
+      <Descripcion>Indice</Descripcion>
+      <HorasEstimadas>0,5</HorasEstimadas>
+      <HorasCompletadas>0,5</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>9</FaseId>
+    </Tarea>
+    <Tarea Id="23">
+      <Titulo>Objetivo del sistema</Titulo>
+      <Descripcion>Objetivo del sistema</Descripcion>
+      <HorasEstimadas>4</HorasEstimadas>
+      <HorasCompletadas>4</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>9</FaseId>
+    </Tarea>
+    <Tarea Id="24">
+      <Titulo>Alcance del sistema</Titulo>
+      <Descripcion>Alcance del sistema</Descripcion>
+      <HorasEstimadas>12</HorasEstimadas>
+      <HorasCompletadas>12</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>9</FaseId>
+    </Tarea>
+    <Tarea Id="25">
+      <Titulo>Organigrama de la empresa</Titulo>
+      <Descripcion>Organigrama de la empresa</Descripcion>
+      <HorasEstimadas>2</HorasEstimadas>
+      <HorasCompletadas>2</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>9</FaseId>
+    </Tarea>
+    <Tarea Id="26">
+      <Titulo>Personas involucradas con el sistema</Titulo>
+      <Descripcion>Personas involucradas con el sistema</Descripcion>
+      <HorasEstimadas>1</HorasEstimadas>
+      <HorasCompletadas>1</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>9</FaseId>
+    </Tarea>
+    <Tarea Id="27">
+      <Titulo>Diagrama de clases</Titulo>
+      <Descripcion>Diagrama de clases</Descripcion>
+      <HorasEstimadas>8</HorasEstimadas>
+      <HorasCompletadas>8</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>11</FaseId>
+    </Tarea>
+    <Tarea Id="28">
+      <Titulo>DER</Titulo>
+      <Descripcion>Diagrama de clases</Descripcion>
+      <HorasEstimadas>2</HorasEstimadas>
+      <HorasCompletadas>2</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>11</FaseId>
+    </Tarea>
+    <Tarea Id="29">
+      <Titulo>ECUs</Titulo>
+      <Descripcion>ECUs</Descripcion>
+      <HorasEstimadas>40</HorasEstimadas>
+      <HorasCompletadas>40</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>11</FaseId>
+    </Tarea>
+    <Tarea Id="30">
+      <Titulo>Anexos</Titulo>
+      <Descripcion>Anexos</Descripcion>
+      <HorasEstimadas>1</HorasEstimadas>
+      <HorasCompletadas>1</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>11</FaseId>
+    </Tarea>
+    <Tarea Id="31">
+      <Titulo>Desarrollo del modulo de gestion de accesos</Titulo>
+      <Descripcion>Desarrollo del modulo de gestion de accesos</Descripcion>
+      <HorasEstimadas>16</HorasEstimadas>
+      <HorasCompletadas>16</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>12</FaseId>
+    </Tarea>
+    <Tarea Id="32">
+      <Titulo>Desarrollo del modulo de encriptación</Titulo>
+      <Descripcion>Desarrollo del modulo de encriptación</Descripcion>
+      <HorasEstimadas>16</HorasEstimadas>
+      <HorasCompletadas>16</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>12</FaseId>
+    </Tarea>
+    <Tarea Id="33">
+      <Titulo>Desarrollo del modulo de backup</Titulo>
+      <Descripcion>Desarrollo del modulo de backup</Descripcion>
+      <HorasEstimadas>20</HorasEstimadas>
+      <HorasCompletadas>20</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>12</FaseId>
+    </Tarea>
+    <Tarea Id="34">
+      <Titulo>Desarrollo de la gestión de RRHH</Titulo>
+      <Descripcion>Desarrollo de la gestión de RRHH</Descripcion>
+      <HorasEstimadas>24</HorasEstimadas>
+      <HorasCompletadas>24</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>12</FaseId>
+    </Tarea>
+    <Tarea Id="35">
+      <Titulo>Desarrollo gestion de administración</Titulo>
+      <Descripcion>Desarrollo gestion de planeación</Descripcion>
+      <HorasEstimadas>32</HorasEstimadas>
+      <HorasCompletadas>32</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>12</FaseId>
+    </Tarea>
+    <Tarea Id="36">
+      <Titulo>Desarrollo gestión de planeación</Titulo>
+      <Descripcion>Desarrollo gestión de planeación</Descripcion>
+      <HorasEstimadas>32</HorasEstimadas>
+      <HorasCompletadas>32</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>12</FaseId>
+    </Tarea>
+    <Tarea Id="37">
+      <Titulo>Desarrollo gestión de auditoría</Titulo>
+      <Descripcion>Desarrollo gestión de auditoría</Descripcion>
+      <HorasEstimadas>24</HorasEstimadas>
+      <HorasCompletadas>24</HorasCompletadas>
+      <HorasRestantes>0</HorasRestantes>
+      <Estado>Finalizado</Estado>
+      <FaseId>12</FaseId>
+    </Tarea>
+  </Tareas>
+  <AsignacionesRolPer>
+    <Asignacion>
+      <RolId>2</RolId>
+      <PermisoId>4</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>2</RolId>
+      <PermisoId>5</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>3</RolId>
+      <PermisoId>8</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>3</RolId>
+      <PermisoId>9</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>3</RolId>
+      <PermisoId>10</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>3</RolId>
+      <PermisoId>11</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>4</RolId>
+      <PermisoId>12</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>4</RolId>
+      <PermisoId>13</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>5</RolId>
+      <PermisoId>16</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>5</RolId>
+      <PermisoId>18</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>5</RolId>
+      <PermisoId>19</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>4</RolId>
+      <PermisoId>4</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>4</RolId>
+      <PermisoId>7</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>6</RolId>
+      <PermisoId>12</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>6</RolId>
+      <PermisoId>14</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>6</RolId>
+      <PermisoId>15</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>7</RolId>
+      <PermisoId>12</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>7</RolId>
+      <PermisoId>15</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>2</RolId>
+      <PermisoId>6</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>1</RolId>
+      <PermisoId>1</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>1</RolId>
+      <PermisoId>2</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>1</RolId>
+      <PermisoId>3</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>1</RolId>
+      <PermisoId>21</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>1</RolId>
+      <PermisoId>22</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <RolId>8</RolId>
+      <PermisoId>23</PermisoId>
+    </Asignacion>
+  </AsignacionesRolPer>
+  <AsignacionesRolRol>
+    <Asignacion>
+      <RolPadreId>1</RolPadreId>
+      <RolHijoId>2</RolHijoId>
+    </Asignacion>
+    <Asignacion>
+      <RolPadreId>1</RolPadreId>
+      <RolHijoId>3</RolHijoId>
+    </Asignacion>
+    <Asignacion>
+      <RolPadreId>1</RolPadreId>
+      <RolHijoId>5</RolHijoId>
+    </Asignacion>
+    <Asignacion>
+      <RolPadreId>8</RolPadreId>
+      <RolHijoId>1</RolHijoId>
+    </Asignacion>
+  </AsignacionesRolRol>
+  <AsignacionesUsuPer>
+    <Asignacion>
+      <UsuarioId>2</UsuarioId>
+      <PermisoId>1</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <UsuarioId>2</UsuarioId>
+      <PermisoId>2</PermisoId>
+    </Asignacion>
+    <Asignacion>
+      <UsuarioId>2</UsuarioId>
+      <PermisoId>21</PermisoId>
+    </Asignacion>
+  </AsignacionesUsuPer>
+  <AsignacionesUsuRol>
+    <Asignacion>
+      <UsuarioId>1</UsuarioId>
+      <RolId>1</RolId>
+    </Asignacion>
+    <Asignacion>
+      <UsuarioId>2</UsuarioId>
+      <RolId>2</RolId>
+    </Asignacion>
+    <Asignacion>
+      <UsuarioId>3</UsuarioId>
+      <RolId>3</RolId>
+    </Asignacion>
+    <Asignacion>
+      <UsuarioId>4</UsuarioId>
+      <RolId>4</RolId>
+    </Asignacion>
+    <Asignacion>
+      <UsuarioId>5</UsuarioId>
+      <RolId>5</RolId>
+    </Asignacion>
+    <Asignacion>
+      <UsuarioId>6</UsuarioId>
+      <RolId>6</RolId>
+    </Asignacion>
+    <Asignacion>
+      <UsuarioId>7</UsuarioId>
+      <RolId>7</RolId>
+    </Asignacion>
+    <Asignacion>
+      <UsuarioId>8</UsuarioId>
+      <RolId>8</RolId>
+    </Asignacion>
+  </AsignacionesUsuRol>
+  <RolesArq>
+    <Rol Id="1">
+      <Nombre>Administrador</Nombre>
+    </Rol>
+    <Rol Id="2">
+      <Nombre>Supervisor RRHH</Nombre>
+    </Rol>
+    <Rol Id="3">
+      <Nombre>Supervisor comercial</Nombre>
+    </Rol>
+    <Rol Id="4">
+      <Nombre>PMO Leader</Nombre>
+    </Rol>
+    <Rol Id="5">
+      <Nombre>C-Level</Nombre>
+    </Rol>
+    <Rol Id="6">
+      <Nombre>PM</Nombre>
+    </Rol>
+    <Rol Id="7">
+      <Nombre>Responsable asignado</Nombre>
+    </Rol>
+    <Rol Id="8">
+      <Nombre>Maxi</Nombre>
+    </Rol>
+  </RolesArq>
+  <Usuarios>
+    <Usuario Id="1">
+      <Username>Franco123</Username>
+      <Password>UtbqAqGia2LOjeLsUfrg4g==</Password>
+      <Activo>1</Activo>
+    </Usuario>
+    <Usuario Id="2">
+      <Username>Pablo123</Username>
+      <Password>yZ1Jph7R4yRaJlRmQjNCCg==</Password>
+      <Activo>1</Activo>
+    </Usuario>
+    <Usuario Id="3">
+      <Username>Maria123</Username>
+      <Password>YUDMx6m6vBrc1M2XcwgB3A==</Password>
+      <Activo>1</Activo>
+    </Usuario>
+    <Usuario Id="4">
+      <Username>Jorge123</Username>
+      <Password>r1ljX80fQErNIrAtBMf5lw==</Password>
+      <Activo>1</Activo>
+    </Usuario>
+    <Usuario Id="5">
+      <Username>Sabrina123</Username>
+      <Password>383UyvgdNEmvrmIH43EEOA==</Password>
+      <Activo>1</Activo>
+    </Usuario>
+    <Usuario Id="6">
+      <Username>Manuel123</Username>
+      <Password>OH0Wz7V74YMch+XPIBFPZg==</Password>
+      <Activo>1</Activo>
+    </Usuario>
+    <Usuario Id="7">
+      <Username>Marta123</Username>
+      <Password>L+vm4s/J8OALNABZeB+nkQ==</Password>
+      <Activo>1</Activo>
+    </Usuario>
+    <Usuario Id="8">
+      <Username>Maxi</Username>
+      <Password>uJgs5F6xfklOlvMToVA3eg==</Password>
+      <Activo>1</Activo>
+    </Usuario>
+  </Usuarios>
+  <Permisos>
+    <Permiso Id="1">
+      <Nombre>Arquitectura base</Nombre>
+    </Permiso>
+    <Permiso Id="2">
+      <Nombre>Usuarios</Nombre>
+    </Permiso>
+    <Permiso Id="3">
+      <Nombre>Roles y permisos</Nombre>
+    </Permiso>
+    <Permiso Id="21">
+      <Nombre>Restore</Nombre>
+    </Permiso>
+    <Permiso Id="22">
+      <Nombre>Backup</Nombre>
+    </Permiso>
+    <Permiso Id="23">
+      <Nombre>Bitacora</Nombre>
+    </Permiso>
+    <Permiso Id="4">
+      <Nombre>Gestión de recursos humanos</Nombre>
+    </Permiso>
+    <Permiso Id="5">
+      <Nombre>Roles</Nombre>
+    </Permiso>
+    <Permiso Id="6">
+      <Nombre>Colaboradores</Nombre>
+    </Permiso>
+    <Permiso Id="7">
+      <Nombre>Asignaciones a proyectos</Nombre>
+    </Permiso>
+    <Permiso Id="8">
+      <Nombre>Gestión de administración</Nombre>
+    </Permiso>
+    <Permiso Id="9">
+      <Nombre>Clientes</Nombre>
+    </Permiso>
+    <Permiso Id="10">
+      <Nombre>Contratos</Nombre>
+    </Permiso>
+    <Permiso Id="11">
+      <Nombre>Fichas de proyecto</Nombre>
+    </Permiso>
+    <Permiso Id="12">
+      <Nombre>Gestión de planeación de proyectos</Nombre>
+    </Permiso>
+    <Permiso Id="13">
+      <Nombre>Proyectos</Nombre>
+    </Permiso>
+    <Permiso Id="14">
+      <Nombre>Cronograma de proyectos</Nombre>
+    </Permiso>
+    <Permiso Id="15">
+      <Nombre>Backlog de proyectos</Nombre>
+    </Permiso>
+    <Permiso Id="16">
+      <Nombre>Gestión de auditoría</Nombre>
+    </Permiso>
+    <Permiso Id="18">
+      <Nombre>Reporteria de administración</Nombre>
+    </Permiso>
+    <Permiso Id="19">
+      <Nombre>Reporteria de planeación de proyectos</Nombre>
+    </Permiso>
+  </Permisos>
+</BackupData>

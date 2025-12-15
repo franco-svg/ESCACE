@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tareas>
+  <Tarea Id="1">
+    <Titulo>Armar diagrama DER</Titulo>
+    <Descripcion>Se arma el diagrama DER</Descripcion>
+    <HorasEstimadas>6</HorasEstimadas>
+    <HorasCompletadas>6</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>1</FaseId>
+  </Tarea>
+  <Tarea Id="2">
+    <Titulo>Documentar modulos del 1 al 4</Titulo>
+    <Descripcion>Se documentan los modulos de la solución del 1 al 4</Descripcion>
+    <HorasEstimadas>12</HorasEstimadas>
+    <HorasCompletadas>12</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>1</FaseId>
+  </Tarea>
+  <Tarea Id="3">
+    <Titulo>Armar diagrama de clases</Titulo>
+    <Descripcion>Se arma el diagrama de clases</Descripcion>
+    <HorasEstimadas>8</HorasEstimadas>
+    <HorasCompletadas>8</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>1</FaseId>
+  </Tarea>
+  <Tarea Id="4">
+    <Titulo>Desarrollar pantalla de inicio</Titulo>
+    <Descripcion>Se desarrolla la pantalla de inicio</Descripcion>
+    <HorasEstimadas>20</HorasEstimadas>
+    <HorasCompletadas>0</HorasCompletadas>
+    <HorasRestantes>20</HorasRestantes>
+    <Estado>En_Progreso</Estado>
+    <FaseId>2</FaseId>
+  </Tarea>
+  <Tarea Id="5">
+    <Titulo>Desarrollar pantalla de ajustes</Titulo>
+    <Descripcion>Se desarrolla pantalla de ajustes</Descripcion>
+    <HorasEstimadas>35</HorasEstimadas>
+    <HorasCompletadas>35</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>2</FaseId>
+  </Tarea>
+  <Tarea Id="6">
+    <Titulo>QA</Titulo>
+    <Descripcion>Pruebas a la app</Descripcion>
+    <HorasEstimadas>12</HorasEstimadas>
+    <HorasCompletadas>0</HorasCompletadas>
+    <HorasRestantes>12</HorasRestantes>
+    <Estado>Pendiente</Estado>
+    <FaseId>3</FaseId>
+  </Tarea>
+  <Tarea Id="7">
+    <Titulo>Ajustes</Titulo>
+    <Descripcion>Ajustes de los bugs encontrados en las pruebas</Descripcion>
+    <HorasEstimadas>4</HorasEstimadas>
+    <HorasCompletadas>0</HorasCompletadas>
+    <HorasRestantes>4</HorasRestantes>
+    <Estado>Pendiente</Estado>
+    <FaseId>3</FaseId>
+  </Tarea>
+  <Tarea Id="8">
+    <Titulo>Documentar procedimientos</Titulo>
+    <Descripcion>se documentan los procedimientos de la aplicación</Descripcion>
+    <HorasEstimadas>4</HorasEstimadas>
+    <HorasCompletadas>1</HorasCompletadas>
+    <HorasRestantes>5</HorasRestantes>
+    <Estado>Pendiente</Estado>
+    <FaseId>4</FaseId>
+  </Tarea>
+  <Tarea Id="9">
+    <Titulo>Manual operativo</Titulo>
+    <Descripcion>Se documenta un manual operativo de la app</Descripcion>
+    <HorasEstimadas>4</HorasEstimadas>
+    <HorasCompletadas>0</HorasCompletadas>
+    <HorasRestantes>4</HorasRestantes>
+    <Estado>Pendiente</Estado>
+    <FaseId>4</FaseId>
+  </Tarea>
+  <Tarea Id="10">
+    <Titulo>1r sesion de preventa</Titulo>
+    <Descripcion>1r sesion de preventa</Descripcion>
+    <HorasEstimadas>2</HorasEstimadas>
+    <HorasCompletadas>2</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>5</FaseId>
+  </Tarea>
+  <Tarea Id="11">
+    <Titulo>2da sesion de preventa</Titulo>
+    <Descripcion>2da sesion de preventa</Descripcion>
+    <HorasEstimadas>2</HorasEstimadas>
+    <HorasCompletadas>2,5</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>5</FaseId>
+  </Tarea>
+  <Tarea Id="12">
+    <Titulo>Kickoff</Titulo>
+    <Descripcion>Kickoff del servicio</Descripcion>
+    <HorasEstimadas>0,5</HorasEstimadas>
+    <HorasCompletadas>0</HorasCompletadas>
+    <HorasRestantes>0,5</HorasRestantes>
+    <Estado>Pendiente</Estado>
+    <FaseId>5</FaseId>
+  </Tarea>
+  <Tarea Id="13">
+    <Titulo>1er bloque de horas</Titulo>
+    <Descripcion>1er bloque de horas</Descripcion>
+    <HorasEstimadas>30</HorasEstimadas>
+    <HorasCompletadas>0</HorasCompletadas>
+    <HorasRestantes>30</HorasRestantes>
+    <Estado>Pendiente</Estado>
+    <FaseId>6</FaseId>
+  </Tarea>
+  <Tarea Id="14">
+    <Titulo>2do bloque de horas</Titulo>
+    <Descripcion>2do bloque de horas</Descripcion>
+    <HorasEstimadas>40</HorasEstimadas>
+    <HorasCompletadas>0</HorasCompletadas>
+    <HorasRestantes>40</HorasRestantes>
+    <Estado>Pendiente</Estado>
+    <FaseId>6</FaseId>
+  </Tarea>
+  <Tarea Id="15">
+    <Titulo>3er bloque de horas</Titulo>
+    <Descripcion>3er bloque de horas</Descripcion>
+    <HorasEstimadas>30</HorasEstimadas>
+    <HorasCompletadas>0</HorasCompletadas>
+    <HorasRestantes>30</HorasRestantes>
+    <Estado>Pendiente</Estado>
+    <FaseId>6</FaseId>
+  </Tarea>
+  <Tarea Id="16">
+    <Titulo>Sesión de cierre</Titulo>
+    <Descripcion>Se realiza la sesión de cierre</Descripcion>
+    <HorasEstimadas>2</HorasEstimadas>
+    <HorasCompletadas>0</HorasCompletadas>
+    <HorasRestantes>2</HorasRestantes>
+    <Estado>Pendiente</Estado>
+    <FaseId>7</FaseId>
+  </Tarea>
+  <Tarea Id="21">
+    <Titulo>Caratula con el titulo del proyecto</Titulo>
+    <Descripcion>Caratula con el titulo del proyecto</Descripcion>
+    <HorasEstimadas>0,5</HorasEstimadas>
+    <HorasCompletadas>0,5</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>9</FaseId>
+  </Tarea>
+  <Tarea Id="22">
+    <Titulo>Indice</Titulo>
+    <Descripcion>Indice</Descripcion>
+    <HorasEstimadas>0,5</HorasEstimadas>
+    <HorasCompletadas>0,5</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>9</FaseId>
+  </Tarea>
+  <Tarea Id="23">
+    <Titulo>Objetivo del sistema</Titulo>
+    <Descripcion>Objetivo del sistema</Descripcion>
+    <HorasEstimadas>4</HorasEstimadas>
+    <HorasCompletadas>4</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>9</FaseId>
+  </Tarea>
+  <Tarea Id="24">
+    <Titulo>Alcance del sistema</Titulo>
+    <Descripcion>Alcance del sistema</Descripcion>
+    <HorasEstimadas>12</HorasEstimadas>
+    <HorasCompletadas>12</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>9</FaseId>
+  </Tarea>
+  <Tarea Id="25">
+    <Titulo>Organigrama de la empresa</Titulo>
+    <Descripcion>Organigrama de la empresa</Descripcion>
+    <HorasEstimadas>2</HorasEstimadas>
+    <HorasCompletadas>2</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>9</FaseId>
+  </Tarea>
+  <Tarea Id="26">
+    <Titulo>Personas involucradas con el sistema</Titulo>
+    <Descripcion>Personas involucradas con el sistema</Descripcion>
+    <HorasEstimadas>1</HorasEstimadas>
+    <HorasCompletadas>1</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>9</FaseId>
+  </Tarea>
+  <Tarea Id="27">
+    <Titulo>Diagrama de clases</Titulo>
+    <Descripcion>Diagrama de clases</Descripcion>
+    <HorasEstimadas>8</HorasEstimadas>
+    <HorasCompletadas>8</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>11</FaseId>
+  </Tarea>
+  <Tarea Id="28">
+    <Titulo>DER</Titulo>
+    <Descripcion>Diagrama de clases</Descripcion>
+    <HorasEstimadas>2</HorasEstimadas>
+    <HorasCompletadas>2</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>11</FaseId>
+  </Tarea>
+  <Tarea Id="29">
+    <Titulo>ECUs</Titulo>
+    <Descripcion>ECUs</Descripcion>
+    <HorasEstimadas>40</HorasEstimadas>
+    <HorasCompletadas>40</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>11</FaseId>
+  </Tarea>
+  <Tarea Id="30">
+    <Titulo>Anexos</Titulo>
+    <Descripcion>Anexos</Descripcion>
+    <HorasEstimadas>1</HorasEstimadas>
+    <HorasCompletadas>1</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>11</FaseId>
+  </Tarea>
+  <Tarea Id="31">
+    <Titulo>Desarrollo del modulo de gestion de accesos</Titulo>
+    <Descripcion>Desarrollo del modulo de gestion de accesos</Descripcion>
+    <HorasEstimadas>16</HorasEstimadas>
+    <HorasCompletadas>16</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>12</FaseId>
+  </Tarea>
+  <Tarea Id="32">
+    <Titulo>Desarrollo del modulo de encriptación</Titulo>
+    <Descripcion>Desarrollo del modulo de encriptación</Descripcion>
+    <HorasEstimadas>16</HorasEstimadas>
+    <HorasCompletadas>16</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>12</FaseId>
+  </Tarea>
+  <Tarea Id="33">
+    <Titulo>Desarrollo del modulo de backup</Titulo>
+    <Descripcion>Desarrollo del modulo de backup</Descripcion>
+    <HorasEstimadas>20</HorasEstimadas>
+    <HorasCompletadas>20</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>12</FaseId>
+  </Tarea>
+  <Tarea Id="34">
+    <Titulo>Desarrollo de la gestión de RRHH</Titulo>
+    <Descripcion>Desarrollo de la gestión de RRHH</Descripcion>
+    <HorasEstimadas>24</HorasEstimadas>
+    <HorasCompletadas>24</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>12</FaseId>
+  </Tarea>
+  <Tarea Id="35">
+    <Titulo>Desarrollo gestion de administración</Titulo>
+    <Descripcion>Desarrollo gestion de planeación</Descripcion>
+    <HorasEstimadas>32</HorasEstimadas>
+    <HorasCompletadas>32</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>12</FaseId>
+  </Tarea>
+  <Tarea Id="36">
+    <Titulo>Desarrollo gestión de planeación</Titulo>
+    <Descripcion>Desarrollo gestión de planeación</Descripcion>
+    <HorasEstimadas>32</HorasEstimadas>
+    <HorasCompletadas>32</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>12</FaseId>
+  </Tarea>
+  <Tarea Id="37">
+    <Titulo>Desarrollo gestión de auditoría</Titulo>
+    <Descripcion>Desarrollo gestión de auditoría</Descripcion>
+    <HorasEstimadas>24</HorasEstimadas>
+    <HorasCompletadas>24</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <FaseId>12</FaseId>
+  </Tarea>
+</Tareas>

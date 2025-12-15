@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AsignacionesColPro>
+  <Asignacion>
+    <ColaboradorId>2</ColaboradorId>
+    <ProyectoId>1</ProyectoId>
+  </Asignacion>
+  <Asignacion>
+    <ColaboradorId>1</ColaboradorId>
+    <ProyectoId>2</ProyectoId>
+  </Asignacion>
+  <Asignacion>
+    <ColaboradorId>5</ColaboradorId>
+    <ProyectoId>2</ProyectoId>
+  </Asignacion>
+  <Asignacion>
+    <ColaboradorId>6</ColaboradorId>
+    <ProyectoId>2</ProyectoId>
+  </Asignacion>
+  <Asignacion>
+    <ColaboradorId>1</ColaboradorId>
+    <ProyectoId>3</ProyectoId>
+  </Asignacion>
+  <Asignacion>
+    <ColaboradorId>12</ColaboradorId>
+    <ProyectoId>3</ProyectoId>
+  </Asignacion>
+  <Asignacion>
+    <ColaboradorId>3</ColaboradorId>
+    <ProyectoId>3</ProyectoId>
+  </Asignacion>
+  <Asignacion>
+    <ColaboradorId>8</ColaboradorId>
+    <ProyectoId>1</ProyectoId>
+  </Asignacion>
+</AsignacionesColPro>

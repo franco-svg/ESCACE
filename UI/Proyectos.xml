@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Proyectos>
+  <Proyecto Id="1">
+    <Titulo>Desarrollo de app movil</Titulo>
+    <Descripcion>
+			Desarrollo de una aplicación móvil multiplataforma utilizando .NET MAUI y Azure App Service, con autenticación basada en OAuth 2.0 e integración con API REST para la gestión de datos.
+			El proyecto incluye la implementación de notificaciones push mediante Firebase Cloud Messaging, almacenamiento local con SQLite, y sincronización en tiempo real a través de SignalR.
+		</Descripcion>
+    <HorasEstimadas>200</HorasEstimadas>
+    <HorasCompletadas>62</HorasCompletadas>
+    <HorasRestantes>45</HorasRestantes>
+    <Estado>Con_Impedimentos</Estado>
+    <FichaProyectoId>1</FichaProyectoId>
+  </Proyecto>
+  <Proyecto Id="2">
+    <Titulo>Servicio de soporte y mantenimiento</Titulo>
+    <Descripcion>
+			Prestación de servicios de soporte correctivo, evolutivo y preventivo sobre las aplicaciones productivas de la organización.
+			Incluye monitoreo de logs, resolución de incidencias, actualización de dependencias, revisión de rendimiento y aplicación de parches de seguridad.
+			Las tareas se ejecutarán conforme a un plan de mantenimiento semanal, priorizando la estabilidad, disponibilidad y continuidad operativa de los sistemas.
+		</Descripcion>
+    <HorasEstimadas>100</HorasEstimadas>
+    <HorasCompletadas>4,5</HorasCompletadas>
+    <HorasRestantes>102,5</HorasRestantes>
+    <Estado>Pendiente</Estado>
+    <FichaProyectoId>2</FichaProyectoId>
+  </Proyecto>
+  <Proyecto Id="3">
+    <Titulo>Implementacion de ESCACE</Titulo>
+    <Descripcion>
+			Implementación inicial del sistema ESCACE, incluyendo la configuración de módulos base, estructura de datos XML y capa de comunicación entre componentes BLL y MPP.
+			El proyecto contempla la integración de formularios de gestión (roles, usuarios, proyectos y bitácora), validaciones de negocio, y mecanismos de persistencia segura mediante cifrado AES.
+			Se estima una duración de 50 horas distribuidas entre desarrollo, pruebas funcionales y documentación técnica.
+		</Descripcion>
+    <HorasEstimadas>50</HorasEstimadas>
+    <HorasCompletadas>235,0</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>En_Progreso</Estado>
+    <FichaProyectoId>3</FichaProyectoId>
+  </Proyecto>
+</Proyectos>

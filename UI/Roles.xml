@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roles>
+  <Rol Id="2">
+    <Nombre>Project Manager</Nombre>
+    <Descripcion>Supervisa la planificación, ejecución y entrega de proyectos, coordinando equipos y recursos para cumplir con los objetivos</Descripcion>
+    <Categoria>Gestión</Categoria>
+  </Rol>
+  <Rol Id="3">
+    <Nombre>Low Code Developer</Nombre>
+    <Descripcion>Desarrollador especializado en Power Platforms</Descripcion>
+    <Categoria>Técnico</Categoria>
+  </Rol>
+  <Rol Id="4">
+    <Nombre>Frontend developer</Nombre>
+    <Descripcion>Implementa interfaces de usuario interactivas y responsivas, asegurando una experiencia fluida en navegadores y dispositivos</Descripcion>
+    <Categoria>Técnico</Categoria>
+  </Rol>
+  <Rol Id="5">
+    <Nombre>Backend developer</Nombre>
+    <Descripcion>Desarrolla y mantiene la lógica del servidor, las bases de datos y las APIs que conectan el frontend con el backend del sistema</Descripcion>
+    <Categoria>Técnico</Categoria>
+  </Rol>
+  <Rol Id="7">
+    <Nombre>QA Tester</Nombre>
+    <Descripcion>Diseña y ejecuta pruebas para detectar errores, garantizando la calidad y estabilidad del software antes de su despliegue</Descripcion>
+    <Categoria>Técnico</Categoria>
+  </Rol>
+  <Rol Id="9">
+    <Nombre>DevOps Engineer</Nombre>
+    <Descripcion>Automatiza y optimiza los procesos de desarrollo, integración y despliegue continuo en entornos de software</Descripcion>
+    <Categoria>Técnico</Categoria>
+  </Rol>
+  <Rol Id="12">
+    <Nombre>Business Analyst</Nombre>
+    <Descripcion>Traduce las necesidades del negocio en requisitos técnicos, asegurando que las soluciones desarrolladas generen valor</Descripcion>
+    <Categoria>Negocio</Categoria>
+  </Rol>
+  <Rol Id="14">
+    <Nombre>Data Engineer</Nombre>
+    <Descripcion>Diseña, construye y mantiene arquitecturas de datos escalables, asegurando la calidad, integridad y disponibilidad de la información para análisis y modelos de IA</Descripcion>
+    <Categoria>Técnico</Categoria>
+  </Rol>
+</Roles>

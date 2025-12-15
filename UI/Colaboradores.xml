@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Colaboradores>
+  <Colaborador Id="1">
+    <Nombre>Franco</Nombre>
+    <Apellido>Barbeito</Apellido>
+    <DNI>46364152</DNI>
+    <Email>franco@hotmail.com</Email>
+    <Telefono>1132488565</Telefono>
+    <Seniority>SemiSenior</Seniority>
+    <RolId>7</RolId>
+  </Colaborador>
+  <Colaborador Id="2">
+    <Nombre>Emiliano</Nombre>
+    <Apellido>Scopetta</Apellido>
+    <DNI>46581732</DNI>
+    <Email>diego@hotmail.com</Email>
+    <Telefono>1132788476</Telefono>
+    <Seniority>Trainee</Seniority>
+    <RolId>2</RolId>
+  </Colaborador>
+  <Colaborador Id="3">
+    <Nombre>Bautista</Nombre>
+    <Apellido>Repossi</Apellido>
+    <DNI>33786336</DNI>
+    <Email>bautista@gmail.com</Email>
+    <Telefono>1662234322</Telefono>
+    <Seniority>Senior</Seniority>
+    <RolId>14</RolId>
+  </Colaborador>
+  <Colaborador Id="4">
+    <Nombre>Manuel</Nombre>
+    <Apellido>Ortiz</Apellido>
+    <DNI>11782635</DNI>
+    <Email>manuel@hotmail.com</Email>
+    <Telefono>1156877353</Telefono>
+    <Seniority>Senior</Seniority>
+    <RolId>2</RolId>
+  </Colaborador>
+  <Colaborador Id="5">
+    <Nombre>Paolo</Nombre>
+    <Apellido>Guerrero</Apellido>
+    <DNI>11114633</DNI>
+    <Email>paolo@hotmail.com</Email>
+    <Telefono>1162253345</Telefono>
+    <Seniority>Senior</Seniority>
+    <RolId>14</RolId>
+  </Colaborador>
+  <Colaborador Id="6">
+    <Nombre>Lucia</Nombre>
+    <Apellido>Garcia Castillo</Apellido>
+    <DNI>34567098</DNI>
+    <Email>lucia@gmail.com</Email>
+    <Telefono>1123664494</Telefono>
+    <Seniority>Senior</Seniority>
+    <RolId>5</RolId>
+  </Colaborador>
+  <Colaborador Id="7">
+    <Nombre>Manuela</Nombre>
+    <Apellido>Gonzalez</Apellido>
+    <DNI>43765419</DNI>
+    <Email>manuela@hotmail.com</Email>
+    <Telefono>1145664878</Telefono>
+    <Seniority>SemiSenior</Seniority>
+    <RolId>9</RolId>
+  </Colaborador>
+  <Colaborador Id="8">
+    <Nombre>Myriam</Nombre>
+    <Apellido>Milei</Apellido>
+    <DNI>47344123</DNI>
+    <Email>myriamb@hotmail.com</Email>
+    <Telefono>1167726533</Telefono>
+    <Seniority>Senior</Seniority>
+    <RolId>4</RolId>
+  </Colaborador>
+  <Colaborador Id="9">
+    <Nombre>Juan</Nombre>
+    <Apellido>Ramirez</Apellido>
+    <DNI>45332763</DNI>
+    <Email>juanr@gmail.com</Email>
+    <Telefono>1132455676</Telefono>
+    <Seniority>Junior</Seniority>
+    <RolId>12</RolId>
+  </Colaborador>
+  <Colaborador Id="12">
+    <Nombre>Diego</Nombre>
+    <Apellido>Faundez</Apellido>
+    <DNI>45889123</DNI>
+    <Email>diegof@hotmail.com</Email>
+    <Telefono>1187782341</Telefono>
+    <Seniority>Trainee</Seniority>
+    <RolId>4</RolId>
+  </Colaborador>
+</Colaboradores>

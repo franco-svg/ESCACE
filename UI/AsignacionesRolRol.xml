@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AsignacionesRolRol>
+  <Asignacion>
+    <RolPadreId>1</RolPadreId>
+    <RolHijoId>2</RolHijoId>
+  </Asignacion>
+  <Asignacion>
+    <RolPadreId>1</RolPadreId>
+    <RolHijoId>3</RolHijoId>
+  </Asignacion>
+  <Asignacion>
+    <RolPadreId>1</RolPadreId>
+    <RolHijoId>5</RolHijoId>
+  </Asignacion>
+  <Asignacion>
+    <RolPadreId>1</RolPadreId>
+    <RolHijoId>4</RolHijoId>
+  </Asignacion>
+  <Asignacion>
+    <RolPadreId>1</RolPadreId>
+    <RolHijoId>6</RolHijoId>
+  </Asignacion>
+</AsignacionesRolRol>

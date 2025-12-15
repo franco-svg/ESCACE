@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Permisos>
+  <Permiso Id="1">
+    <Nombre>Arquitectura base</Nombre>
+  </Permiso>
+  <Permiso Id="2">
+    <Nombre>Usuarios</Nombre>
+  </Permiso>
+  <Permiso Id="3">
+    <Nombre>Roles y permisos</Nombre>
+  </Permiso>
+  <Permiso Id="21">
+    <Nombre>Restore</Nombre>
+  </Permiso>
+  <Permiso Id="22">
+    <Nombre>Backup</Nombre>
+  </Permiso>
+  <Permiso Id="23">
+    <Nombre>Bitacora</Nombre>
+  </Permiso>
+  <Permiso Id="4">
+    <Nombre>Gestión de recursos humanos</Nombre>
+  </Permiso>
+  <Permiso Id="5">
+    <Nombre>Roles</Nombre>
+  </Permiso>
+  <Permiso Id="6">
+    <Nombre>Colaboradores</Nombre>
+  </Permiso>
+  <Permiso Id="7">
+    <Nombre>Asignaciones a proyectos</Nombre>
+  </Permiso>
+  <Permiso Id="8">
+    <Nombre>Gestión de administración</Nombre>
+  </Permiso>
+  <Permiso Id="9">
+    <Nombre>Clientes</Nombre>
+  </Permiso>
+  <Permiso Id="10">
+    <Nombre>Contratos</Nombre>
+  </Permiso>
+  <Permiso Id="11">
+    <Nombre>Fichas de proyecto</Nombre>
+  </Permiso>
+  <Permiso Id="12">
+    <Nombre>Gestión de planeación de proyectos</Nombre>
+  </Permiso>
+  <Permiso Id="13">
+    <Nombre>Proyectos</Nombre>
+  </Permiso>
+  <Permiso Id="14">
+    <Nombre>Cronograma de proyectos</Nombre>
+  </Permiso>
+  <Permiso Id="15">
+    <Nombre>Backlog de proyectos</Nombre>
+  </Permiso>
+  <Permiso Id="16">
+    <Nombre>Gestión de auditoría</Nombre>
+  </Permiso>
+  <Permiso Id="18">
+    <Nombre>Reporteria de administración</Nombre>
+  </Permiso>
+  <Permiso Id="19">
+    <Nombre>Reporteria de planeación de proyectos</Nombre>
+  </Permiso>
+</Permisos>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Clientes>
+  <Cliente Id="1">
+    <RazonSocial>Amazon SA</RazonSocial>
+    <IdFiscal>12-4563456</IdFiscal>
+    <Email>amazon@amazon.co</Email>
+    <Telefono>+1-5261889363</Telefono>
+    <Industria>Tecnologia</Industria>
+    <Pais>EEUU</Pais>
+  </Cliente>
+  <Cliente Id="2">
+    <RazonSocial>Tesla LLC</RazonSocial>
+    <IdFiscal>12-6378291</IdFiscal>
+    <Email>tesla@tesla.co</Email>
+    <Telefono>+1-1526738494</Telefono>
+    <Industria>Tecnologia</Industria>
+    <Pais>EEUU</Pais>
+  </Cliente>
+  <Cliente Id="3">
+    <RazonSocial>META Platforms LLC</RazonSocial>
+    <IdFiscal>11-7628192</IdFiscal>
+    <Email>meta@meta.co</Email>
+    <Telefono>+1-6251123892</Telefono>
+    <Industria>Tecnologia</Industria>
+    <Pais>EEUU</Pais>
+  </Cliente>
+  <Cliente Id="4">
+    <RazonSocial>Manaos SAS</RazonSocial>
+    <IdFiscal>21-23453432-1</IdFiscal>
+    <Email>manaosarg@manaos.co</Email>
+    <Telefono>+54-1145655433</Telefono>
+    <Industria>Comercio</Industria>
+    <Pais>Argentina</Pais>
+  </Cliente>
+  <Cliente Id="5">
+    <RazonSocial>Swiss Medical SRL</RazonSocial>
+    <IdFiscal>45-27288922-1</IdFiscal>
+    <Email>swissme@swiss.co</Email>
+    <Telefono>+54-1123456534</Telefono>
+    <Industria>Salud</Industria>
+    <Pais>Argentina</Pais>
+  </Cliente>
+  <Cliente Id="6">
+    <RazonSocial>El corte ingles SA</RazonSocial>
+    <IdFiscal>12345221P</IdFiscal>
+    <Email>corteingles@corte.co</Email>
+    <Telefono>+34-672898152</Telefono>
+    <Industria>Comercio</Industria>
+    <Pais>España</Pais>
+  </Cliente>
+  <Cliente Id="7">
+    <RazonSocial>Cencosud SAS</RazonSocial>
+    <IdFiscal>12345678-K</IdFiscal>
+    <Email>cencosud@cen.co</Email>
+    <Telefono>+56-162783744</Telefono>
+    <Industria>Comercio</Industria>
+    <Pais>Chile</Pais>
+  </Cliente>
+  <Cliente Id="9">
+    <RazonSocial>Petrobras LTDA</RazonSocial>
+    <IdFiscal>12.345.678/2201-91</IdFiscal>
+    <Email>petro@bras.co</Email>
+    <Telefono>+55-72662881</Telefono>
+    <Industria>Energia</Industria>
+    <Pais>Brasil</Pais>
+  </Cliente>
+  <Cliente Id="10">
+    <RazonSocial>Tienda Inglesa SA</RazonSocial>
+    <IdFiscal>266278398712</IdFiscal>
+    <Email>tiendainglesa@tiendauy.co</Email>
+    <Telefono>+598-87290911</Telefono>
+    <Industria>Comercio</Industria>
+    <Pais>Uruguay</Pais>
+  </Cliente>
+  <Cliente Id="11">
+    <RazonSocial>JPMorgan LLC</RazonSocial>
+    <IdFiscal>12-7736472</IdFiscal>
+    <Email>jpmorgan@morgan.co</Email>
+    <Telefono>+1-2773892811</Telefono>
+    <Industria>Finanzas</Industria>
+    <Pais>EEUU</Pais>
+  </Cliente>
+</Clientes>

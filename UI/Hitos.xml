@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Hitos>
+  <Hito Id="1">
+    <Titulo>Documentacion inicial fase 1</Titulo>
+    <CriterioAlcance>Se debe haber realizado la documentacion inicial del proyecto.</CriterioAlcance>
+    <Fecha>2025-11-20</Fecha>
+    <Alcanzado>True</Alcanzado>
+    <ProyectoId>1</ProyectoId>
+  </Hito>
+  <Hito Id="2">
+    <Titulo>Desarrollo de la app al 50%</Titulo>
+    <CriterioAlcance>Se deben haber desarrollado la aplicacion en un 50%</CriterioAlcance>
+    <Fecha>2025-12-17</Fecha>
+    <Alcanzado>True</Alcanzado>
+    <ProyectoId>1</ProyectoId>
+  </Hito>
+  <Hito Id="3">
+    <Titulo>Desarrollo de app al 100%</Titulo>
+    <CriterioAlcance>Se debe haber desarrollado la app en un 100%</CriterioAlcance>
+    <Fecha>2026-01-14</Fecha>
+    <Alcanzado>false</Alcanzado>
+    <ProyectoId>1</ProyectoId>
+  </Hito>
+  <Hito Id="4">
+    <Titulo>Pruebas y QA (con ajustes de bugs)</Titulo>
+    <CriterioAlcance>Se debe someter la app a un proceso de QA apropiado. Contempla ajuste de bugs.</CriterioAlcance>
+    <Fecha>2026-01-24</Fecha>
+    <Alcanzado>false</Alcanzado>
+    <ProyectoId>1</ProyectoId>
+  </Hito>
+  <Hito Id="5">
+    <Titulo>Pasaje a producción</Titulo>
+    <CriterioAlcance>Pasaje a producción de la app</CriterioAlcance>
+    <Fecha>2026-02-05</Fecha>
+    <Alcanzado>false</Alcanzado>
+    <ProyectoId>1</ProyectoId>
+  </Hito>
+  <Hito Id="6">
+    <Titulo>30 Horas de soporte y mantenimiento</Titulo>
+    <CriterioAlcance>Se debe haber cumplido con al menos 30 horas de soporte y mantenimiento</CriterioAlcance>
+    <Fecha>2025-11-28</Fecha>
+    <Alcanzado>True</Alcanzado>
+    <ProyectoId>2</ProyectoId>
+  </Hito>
+  <Hito Id="7">
+    <Titulo>70 horas de soporte y mantenimiento</Titulo>
+    <CriterioAlcance>Se dee haber cumplido con al menos 70 horas de soporte y mantenimiento</CriterioAlcance>
+    <Fecha>2025-12-31</Fecha>
+    <Alcanzado>False</Alcanzado>
+    <ProyectoId>2</ProyectoId>
+  </Hito>
+  <Hito Id="8">
+    <Titulo>100 horas de soporte y mantenimiento</Titulo>
+    <CriterioAlcance>Se deben haber cumplido 100 horas de soporte y mantenimiento</CriterioAlcance>
+    <Fecha>2026-01-16</Fecha>
+    <Alcanzado>false</Alcanzado>
+    <ProyectoId>2</ProyectoId>
+  </Hito>
+  <Hito Id="9">
+    <Titulo>Documentación inicial de la solución</Titulo>
+    <CriterioAlcance>Se debe haber documentado la solución en su estadío inicial</CriterioAlcance>
+    <Fecha>2025-11-21</Fecha>
+    <Alcanzado>True</Alcanzado>
+    <ProyectoId>3</ProyectoId>
+  </Hito>
+  <Hito Id="10">
+    <Titulo>Desarrollo e implementación de la solución</Titulo>
+    <CriterioAlcance>Desarrollo e implementación de la solución en su totalidad</CriterioAlcance>
+    <Fecha>2025-12-25</Fecha>
+    <Alcanzado>True</Alcanzado>
+    <ProyectoId>3</ProyectoId>
+  </Hito>
+  <Hito Id="11">
+    <Titulo>Pruebas y QA de la implementación</Titulo>
+    <CriterioAlcance>Se debe somenter la implementación de la solución a un robusto conjunto de pruebas</CriterioAlcance>
+    <Fecha>2025-12-19</Fecha>
+    <Alcanzado>false</Alcanzado>
+    <ProyectoId>3</ProyectoId>
+  </Hito>
+  <Hito Id="12">
+    <Titulo>Documentación final de la solución</Titulo>
+    <CriterioAlcance>Se debe documentar la solución en su estadío final</CriterioAlcance>
+    <Fecha>2026-01-15</Fecha>
+    <Alcanzado>False</Alcanzado>
+    <ProyectoId>3</ProyectoId>
+  </Hito>
+</Hitos>

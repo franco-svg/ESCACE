@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AsignacionesUsuPer>
+  <Asignacion>
+    <UsuarioId>2</UsuarioId>
+    <PermisoId>1</PermisoId>
+  </Asignacion>
+  <Asignacion>
+    <UsuarioId>2</UsuarioId>
+    <PermisoId>2</PermisoId>
+  </Asignacion>
+  <Asignacion>
+    <UsuarioId>2</UsuarioId>
+    <PermisoId>21</PermisoId>
+  </Asignacion>
+</AsignacionesUsuPer>

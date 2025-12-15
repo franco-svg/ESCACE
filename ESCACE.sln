@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{D67A1AB0-7E64-4340-95E4-7318EB0DE261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE", "BE\BE.csproj", "{F3EBBD94-B35E-4B17-AC41-8FBE48B1B3D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{13FDA9CD-71C7-449C-878B-02F833BAF841}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPP", "MPP\MPP.csproj", "{DC3E4D6C-3A5F-49FF-8693-C028AECA3113}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lineamientos", "Lineamientos", "{86F13EB5-EE73-49B2-AA73-7DF2384CF027}"
+	ProjectSection(SolutionItems) = preProject
+		Lineamientos del desarrollo.txt = Lineamientos del desarrollo.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XML", "XML", "{03CCB50D-B23B-40F3-BFE8-A4256D255FA5}"
+	ProjectSection(SolutionItems) = preProject
+		UI\bin\Debug\AsignacionesColPro.xml = UI\bin\Debug\AsignacionesColPro.xml
+		UI\bin\Debug\AsignacionesRolPer.xml = UI\bin\Debug\AsignacionesRolPer.xml
+		UI\bin\Debug\AsignacionesRolRol.xml = UI\bin\Debug\AsignacionesRolRol.xml
+		UI\bin\Debug\AsignacionesUsuPer.xml = UI\bin\Debug\AsignacionesUsuPer.xml
+		UI\bin\Debug\AsignacionesUsuRol.xml = UI\bin\Debug\AsignacionesUsuRol.xml
+		UI\bin\Debug\Backups.xml = UI\bin\Debug\Backups.xml
+		UI\bin\Debug\Bitacoras.xml = UI\bin\Debug\Bitacoras.xml
+		UI\bin\Debug\Clientes.xml = UI\bin\Debug\Clientes.xml
+		UI\bin\Debug\Colaboradores.xml = UI\bin\Debug\Colaboradores.xml
+		UI\bin\Debug\Contratos.xml = UI\bin\Debug\Contratos.xml
+		UI\bin\Debug\Fases.xml = UI\bin\Debug\Fases.xml
+		UI\bin\Debug\FichasProyecto.xml = UI\bin\Debug\FichasProyecto.xml
+		UI\bin\Debug\Hitos.xml = UI\bin\Debug\Hitos.xml
+		UI\bin\Debug\Permisos.xml = UI\bin\Debug\Permisos.xml
+		UI\bin\Debug\Proyectos.xml = UI\bin\Debug\Proyectos.xml
+		UI\bin\Debug\Restores.xml = UI\bin\Debug\Restores.xml
+		UI\bin\Debug\Roles.xml = UI\bin\Debug\Roles.xml
+		UI\bin\Debug\RolesArq.xml = UI\bin\Debug\RolesArq.xml
+		UI\bin\Debug\Tareas.xml = UI\bin\Debug\Tareas.xml
+		UI\bin\Debug\Usuarios.xml = UI\bin\Debug\Usuarios.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEC", "SEC\SEC.csproj", "{B71AF64F-2BA0-4B3D-8FEA-1E523C06A3F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D67A1AB0-7E64-4340-95E4-7318EB0DE261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67A1AB0-7E64-4340-95E4-7318EB0DE261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67A1AB0-7E64-4340-95E4-7318EB0DE261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67A1AB0-7E64-4340-95E4-7318EB0DE261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3EBBD94-B35E-4B17-AC41-8FBE48B1B3D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3EBBD94-B35E-4B17-AC41-8FBE48B1B3D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3EBBD94-B35E-4B17-AC41-8FBE48B1B3D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3EBBD94-B35E-4B17-AC41-8FBE48B1B3D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13FDA9CD-71C7-449C-878B-02F833BAF841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13FDA9CD-71C7-449C-878B-02F833BAF841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13FDA9CD-71C7-449C-878B-02F833BAF841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13FDA9CD-71C7-449C-878B-02F833BAF841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC3E4D6C-3A5F-49FF-8693-C028AECA3113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3E4D6C-3A5F-49FF-8693-C028AECA3113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC3E4D6C-3A5F-49FF-8693-C028AECA3113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3E4D6C-3A5F-49FF-8693-C028AECA3113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B71AF64F-2BA0-4B3D-8FEA-1E523C06A3F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71AF64F-2BA0-4B3D-8FEA-1E523C06A3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71AF64F-2BA0-4B3D-8FEA-1E523C06A3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71AF64F-2BA0-4B3D-8FEA-1E523C06A3F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D58896C0-BAF0-4518-AD7C-64AE3534C2BA}
+	EndGlobalSection
+EndGlobal

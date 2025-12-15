@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Usuarios>
+  <Usuario Id="1">
+    <Username>Franco123</Username>
+    <Password>UtbqAqGia2LOjeLsUfrg4g==</Password>
+    <Activo>1</Activo>
+  </Usuario>
+  <Usuario Id="2">
+    <Username>Pablo123</Username>
+    <Password>yZ1Jph7R4yRaJlRmQjNCCg==</Password>
+    <Activo>1</Activo>
+  </Usuario>
+  <Usuario Id="3">
+    <Username>Maria123</Username>
+    <Password>YUDMx6m6vBrc1M2XcwgB3A==</Password>
+    <Activo>1</Activo>
+  </Usuario>
+  <Usuario Id="4">
+    <Username>Jorge123</Username>
+    <Password>r1ljX80fQErNIrAtBMf5lw==</Password>
+    <Activo>1</Activo>
+  </Usuario>
+  <Usuario Id="5">
+    <Username>Sabrina123</Username>
+    <Password>383UyvgdNEmvrmIH43EEOA==</Password>
+    <Activo>1</Activo>
+  </Usuario>
+  <Usuario Id="6">
+    <Username>Manuel123</Username>
+    <Password>OH0Wz7V74YMch+XPIBFPZg==</Password>
+    <Activo>1</Activo>
+  </Usuario>
+  <Usuario Id="7">
+    <Username>Marta123</Username>
+    <Password>L+vm4s/J8OALNABZeB+nkQ==</Password>
+    <Activo>0</Activo>
+  </Usuario>
+  <Usuario Id="8">
+    <Username>Maxi</Username>
+    <Password>uJgs5F6xfklOlvMToVA3eg==</Password>
+    <Activo>0</Activo>
+  </Usuario>
+</Usuarios>

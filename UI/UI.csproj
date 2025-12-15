@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D67A1AB0-7E64-4340-95E4-7318EB0DE261}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UI</RootNamespace>
+    <AssemblyName>UI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.6.2\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.barcodes, Version=9.3.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.3.0\lib\net461\itext.barcodes.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.bouncy-castle-adapter, Version=9.3.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.bouncy-castle-adapter.9.3.0\lib\net461\itext.bouncy-castle-adapter.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.bouncy-castle-connector, Version=9.3.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.3.0\lib\net461\itext.bouncy-castle-connector.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.commons, Version=9.3.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.commons.9.3.0\lib\net461\itext.commons.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.forms, Version=9.3.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.3.0\lib\net461\itext.forms.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.io, Version=9.3.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.3.0\lib\net461\itext.io.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.kernel, Version=9.3.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.3.0\lib\net461\itext.kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.layout, Version=9.3.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.3.0\lib\net461\itext.layout.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.pdfa, Version=9.3.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.3.0\lib\net461\itext.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.pdfua, Version=9.3.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.3.0\lib\net461\itext.pdfua.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.sign, Version=9.3.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.3.0\lib\net461\itext.sign.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.styledxmlparser, Version=9.3.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.3.0\lib\net461\itext.styledxmlparser.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.svg, Version=9.3.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.3.0\lib\net461\itext.svg.dll</HintPath>
+    </Reference>
+    <Reference Include="Krypton.Toolkit, Version=95.25.8.235, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Krypton.Toolkit.95.25.8.235\lib\net48\Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.5.0.0\lib\net461\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.5.0.0\lib\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.5.0.0\lib\net461\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.5.0.0\lib\net461\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Options.5.0.0\lib\net461\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.5.0.0\lib\net461\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.5.0.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.AccessControl, Version=6.0.0.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.6.0.1\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Xml, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Xml.6.0.2\lib\net461\System.Security.Cryptography.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAbmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbmClientes.Designer.cs">
+      <DependentUpon>frmAbmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbmColaboradores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbmColaboradores.Designer.cs">
+      <DependentUpon>frmAbmColaboradores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbmContratos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbmContratos.Designer.cs">
+      <DependentUpon>frmAbmContratos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbmFases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbmFases.Designer.cs">
+      <DependentUpon>frmAbmFases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbmFichaProyecto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbmFichaProyecto.Designer.cs">
+      <DependentUpon>frmAbmFichaProyecto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbmHitos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbmHitos.Designer.cs">
+      <DependentUpon>frmAbmHitos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbmPermisos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbmPermisos.Designer.cs">
+      <DependentUpon>frmAbmPermisos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbmProyectos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbmProyectos.Designer.cs">
+      <DependentUpon>frmAbmProyectos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbmRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbmRoles.Designer.cs">
+      <DependentUpon>frmAbmRoles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbmRolesArq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbmRolesArq.Designer.cs">
+      <DependentUpon>frmAbmRolesArq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbmTareas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbmTareas.Designer.cs">
+      <DependentUpon>frmAbmTareas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbmUsuarios.Designer.cs">
+      <DependentUpon>frmAbmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAsignacionProyectos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAsignacionProyectos.Designer.cs">
+      <DependentUpon>frmAsignacionProyectos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDescargaContrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDescargaContrato.Designer.cs">
+      <DependentUpon>frmDescargaContrato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModuloBacklog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModuloBacklog.Designer.cs">
+      <DependentUpon>frmModuloBacklog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModuloBackups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModuloBackups.Designer.cs">
+      <DependentUpon>frmModuloBackups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModuloBitacora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModuloBitacora.Designer.cs">
+      <DependentUpon>frmModuloBitacora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModuloClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModuloClientes.Designer.cs">
+      <DependentUpon>frmModuloClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModuloContratos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModuloContratos.Designer.cs">
+      <DependentUpon>frmModuloContratos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModuloFichasProyecto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModuloFichasProyecto.Designer.cs">
+      <DependentUpon>frmModuloFichasProyecto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModuloCronograma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModuloCronograma.Designer.cs">
+      <DependentUpon>frmModuloCronograma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModuloColaboradores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModuloColaboradores.Designer.cs">
+      <DependentUpon>frmModuloColaboradores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModuloPermisos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModuloPermisos.Designer.cs">
+      <DependentUpon>frmModuloPermisos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModuloProyectos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModuloProyectos.Designer.cs">
+      <DependentUpon>frmModuloProyectos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModuloRestores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModuloRestores.Designer.cs">
+      <DependentUpon>frmModuloRestores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModuloRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModuloRoles.Designer.cs">
+      <DependentUpon>frmModuloRoles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModuloUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModuloUsuarios.Designer.cs">
+      <DependentUpon>frmModuloUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReporteriaAdministracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReporteriaAdministracion.Designer.cs">
+      <DependentUpon>frmReporteriaAdministracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReporteriaPlaneacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReporteriaPlaneacion.Designer.cs">
+      <DependentUpon>frmReporteriaPlaneacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReporteriaRRHH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReporteriaRRHH.Designer.cs">
+      <DependentUpon>frmReporteriaRRHH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UCBackButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCBackButton.Designer.cs">
+      <DependentUpon>UCBackButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIHelper.cs" />
+    <Compile Include="UIPdfGenerator.cs" />
+    <EmbeddedResource Include="frmAbmClientes.resx">
+      <DependentUpon>frmAbmClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbmColaboradores.resx">
+      <DependentUpon>frmAbmColaboradores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbmContratos.resx">
+      <DependentUpon>frmAbmContratos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbmFases.resx">
+      <DependentUpon>frmAbmFases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbmFichaProyecto.resx">
+      <DependentUpon>frmAbmFichaProyecto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbmHitos.resx">
+      <DependentUpon>frmAbmHitos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbmPermisos.resx">
+      <DependentUpon>frmAbmPermisos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbmProyectos.resx">
+      <DependentUpon>frmAbmProyectos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbmRoles.resx">
+      <DependentUpon>frmAbmRoles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbmRolesArq.resx">
+      <DependentUpon>frmAbmRolesArq.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbmTareas.resx">
+      <DependentUpon>frmAbmTareas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbmUsuarios.resx">
+      <DependentUpon>frmAbmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAsignacionProyectos.resx">
+      <DependentUpon>frmAsignacionProyectos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDescargaContrato.resx">
+      <DependentUpon>frmDescargaContrato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModuloBacklog.resx">
+      <DependentUpon>frmModuloBacklog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModuloBackups.resx">
+      <DependentUpon>frmModuloBackups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModuloBitacora.resx">
+      <DependentUpon>frmModuloBitacora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModuloClientes.resx">
+      <DependentUpon>frmModuloClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModuloContratos.resx">
+      <DependentUpon>frmModuloContratos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModuloFichasProyecto.resx">
+      <DependentUpon>frmModuloFichasProyecto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModuloCronograma.resx">
+      <DependentUpon>frmModuloCronograma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModuloColaboradores.resx">
+      <DependentUpon>frmModuloColaboradores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModuloPermisos.resx">
+      <DependentUpon>frmModuloPermisos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModuloProyectos.resx">
+      <DependentUpon>frmModuloProyectos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModuloRestores.resx">
+      <DependentUpon>frmModuloRestores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModuloRoles.resx">
+      <DependentUpon>frmModuloRoles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModuloUsuarios.resx">
+      <DependentUpon>frmModuloUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReporteriaAdministracion.resx">
+      <DependentUpon>frmReporteriaAdministracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReporteriaPlaneacion.resx">
+      <DependentUpon>frmReporteriaPlaneacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReporteriaRRHH.resx">
+      <DependentUpon>frmReporteriaRRHH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCBackButton.resx">
+      <DependentUpon>UCBackButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BE\BE.csproj">
+      <Project>{f3ebbd94-b35e-4b17-ac41-8fbe48b1b3d6}</Project>
+      <Name>BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{13fda9cd-71c7-449c-878b-02f833baf841}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SEC\SEC.csproj">
+      <Project>{b71af64f-2ba0-4b3d-8fea-1e523c06a3f5}</Project>
+      <Name>SEC</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passwordEyeClosed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passwordEyeOpen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AsignacionesColPro.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AsignacionesRolPer.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AsignacionesRolRol.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AsignacionesUsuPer.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AsignacionesUsuRol.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Backups.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Backups\Backup_08-12-2025_15-55-28.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Backups\Backup_14-11-2025_16-46-49.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Backups\Backup_17-11-2025_18-29-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Backups\Backup_17-11-2025_18-54-22.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Backups\Backup_26-11-2025_19-59-23.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Bitacoras.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Clientes.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Colaboradores.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Contratos.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fases.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="FichasProyecto.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Hitos.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Permisos.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Proyectos.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Restores.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Roles.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RolesArq.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tareas.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Usuarios.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

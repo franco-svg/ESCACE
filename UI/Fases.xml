@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Fases>
+  <Fase Id="1">
+    <Titulo>Diseno de la solución</Titulo>
+    <Descripcion>Diseno de la solución</Descripcion>
+    <HorasEstimadas>20</HorasEstimadas>
+    <HorasCompletadas>26</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <ProyectoId>1</ProyectoId>
+  </Fase>
+  <Fase Id="2">
+    <Titulo>Desarrollo de la solución</Titulo>
+    <Descripcion>Se desarrolla la solución</Descripcion>
+    <HorasEstimadas>100</HorasEstimadas>
+    <HorasCompletadas>35</HorasCompletadas>
+    <HorasRestantes>20</HorasRestantes>
+    <Estado>Pendiente</Estado>
+    <ProyectoId>1</ProyectoId>
+  </Fase>
+  <Fase Id="3">
+    <Titulo>Pruebas y QA</Titulo>
+    <Descripcion>Se prueba la solución</Descripcion>
+    <HorasEstimadas>16</HorasEstimadas>
+    <HorasCompletadas>0</HorasCompletadas>
+    <HorasRestantes>16</HorasRestantes>
+    <Estado>Pendiente</Estado>
+    <ProyectoId>1</ProyectoId>
+  </Fase>
+  <Fase Id="4">
+    <Titulo>Documentación final de la solución</Titulo>
+    <Descripcion>Se documenta la solución una vez terminada</Descripcion>
+    <HorasEstimadas>12</HorasEstimadas>
+    <HorasCompletadas>1</HorasCompletadas>
+    <HorasRestantes>9</HorasRestantes>
+    <Estado>Pendiente</Estado>
+    <ProyectoId>1</ProyectoId>
+  </Fase>
+  <Fase Id="5">
+    <Titulo>Preventa </Titulo>
+    <Descripcion>Preventa del soporte</Descripcion>
+    <HorasEstimadas>6</HorasEstimadas>
+    <HorasCompletadas>4,5</HorasCompletadas>
+    <HorasRestantes>0,5</HorasRestantes>
+    <Estado>En_Progreso</Estado>
+    <ProyectoId>2</ProyectoId>
+  </Fase>
+  <Fase Id="6">
+    <Titulo>Sesiones de soporte</Titulo>
+    <Descripcion>Sesiones de soporte</Descripcion>
+    <HorasEstimadas>100</HorasEstimadas>
+    <HorasCompletadas>0</HorasCompletadas>
+    <HorasRestantes>100</HorasRestantes>
+    <Estado>Pendiente</Estado>
+    <ProyectoId>2</ProyectoId>
+  </Fase>
+  <Fase Id="7">
+    <Titulo>Cierre del servicio</Titulo>
+    <Descripcion>Cierre del servicio</Descripcion>
+    <HorasEstimadas>2</HorasEstimadas>
+    <HorasCompletadas>0</HorasCompletadas>
+    <HorasRestantes>2</HorasRestantes>
+    <Estado>Pendiente</Estado>
+    <ProyectoId>2</ProyectoId>
+  </Fase>
+  <Fase Id="9">
+    <Titulo>Analisis de la solución</Titulo>
+    <Descripcion>Se realiza el analisis de la solución</Descripcion>
+    <HorasEstimadas>16</HorasEstimadas>
+    <HorasCompletadas>20,0</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <ProyectoId>3</ProyectoId>
+  </Fase>
+  <Fase Id="11">
+    <Titulo>Diseno de la solucion</Titulo>
+    <Descripcion>Diseno de la solucion</Descripcion>
+    <HorasEstimadas>30</HorasEstimadas>
+    <HorasCompletadas>51</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>Finalizado</Estado>
+    <ProyectoId>3</ProyectoId>
+  </Fase>
+  <Fase Id="12">
+    <Titulo>Desarrollo de la solucion</Titulo>
+    <Descripcion>Desarrollo de la solucion</Descripcion>
+    <HorasEstimadas>80</HorasEstimadas>
+    <HorasCompletadas>164</HorasCompletadas>
+    <HorasRestantes>0</HorasRestantes>
+    <Estado>En_Progreso</Estado>
+    <ProyectoId>3</ProyectoId>
+  </Fase>
+</Fases>

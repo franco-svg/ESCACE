@@ -1,0 +1,45 @@
+
+Arquitectura
+
+	--El proyecto se desarrollará bajo una arquitectura de 4 capas, siendo estas: 
+																				BE (Business Entities)
+																				BLL (Business Logic Layer)
+																				MPP (Mapper)
+																				UI (User Interface)
+																				SEC (Security)
+																			
+
+Organizacion del codigo
+
+	--Se va modularizar el codigo, en proyectos, representando cada uno de estos, una capa
+
+	--Se va a modularizar el código por regions, representando cada una una sección del mismo (Métodos, Eventos).
+
+Paleta de colores
+
+	ARGB MENU INICIAL: 255, 50, 100, 150 (deprecated)
+	ARGB PANTALLAS DE MODULOS: 255, 70, 130, 180 (deprecated)
+	ARGB PANTALLAS ABM: 255, 120, 170, 220 (deprecated)
+
+	Azul oscuro:39;63;79
+	Azul medio: 68;125;155
+	Azul clarito: 118;175;205
+	Gris Claro: 215;215;215
+	Naranja:  254;119;67
+	Verde confirmar: 89; 172; 119
+	Rojo cancelar: 208;72;72
+
+
+Tamanos
+
+	Tamano pantalla de menu: 1200;750
+	Tamano pantalla de modulo: 1200;750
+	Tamano pantalla ABM muy pequeno: 600;400
+	Tamano pantalla ABM pequeno: 600;600
+	Tamano pantalla ABM pequeno, con seleccion: 850;600
+	Tamano pantalla ABM grande: 600;750
+	Tamano pantalla ABM grande, con seleccion: 850;750
+	Pantalla descarga: 600;800
+	Pantalla dashboard mediano: 1250;800
+	Pantalla dashboard grande: 1250;900
+	
